@@ -1,0 +1,17 @@
+Gigabyte
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Gigabyte] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Gigabyte)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Gigabyte - это изготовитель видеокарты] (* <-lang_ru;; *);;
+				*);;
+		*);;

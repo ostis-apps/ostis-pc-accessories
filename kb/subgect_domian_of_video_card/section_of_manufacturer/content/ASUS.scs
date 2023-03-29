@@ -1,0 +1,17 @@
+ASUS
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[ASUS] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(ASUS)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [ASUS - это изготовитель видеокарты] (* <-lang_ru;; *);;
+				*);;
+		*);;

@@ -1,0 +1,18 @@
+Nvidia
+	<- sc_node_not_relation;
+    <- reference_materials;
+	=> nrel_main_idtf: 
+		[Nvidia] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Nvidia)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Nvidia - это изготовитель видеокарты] (* <-lang_ru;; *);;
+				*);;
+		*);;

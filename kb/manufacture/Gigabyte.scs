@@ -12,6 +12,6 @@ Gigabyte
 		    <= nrel_sc_text_translation:
 				...
 				(* 
-		            -> rrel_example: [Gigabyte - это изготовитель видеокарты] (* <-lang_ru;; *);;
+		            -> rrel_example: [Gigabyte - этo тайваньская компания по производству системных плат, видеокарт и другой компьютерной техники.] (* <-lang_ru;; *);;
 				*);;
 		*);;

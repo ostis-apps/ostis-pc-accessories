@@ -1,6 +1,5 @@
 Nvidia
 	<- sc_node_not_relation;
-    <- reference_materials;
 	=> nrel_main_idtf: 
 		[Nvidia] 
 			(* <-lang_en;; *);
@@ -13,6 +12,6 @@ Nvidia
 		    <= nrel_sc_text_translation:
 				...
 				(* 
-		            -> rrel_example: [Nvidia - это изготовитель видеокарты] (* <-lang_ru;; *);;
+		            -> rrel_example: [Nvidia - это aмериканская технологическая компания, разработчик графических процессоров и систем.] (* <-lang_ru;; *);;
 				*);;
 		*);;

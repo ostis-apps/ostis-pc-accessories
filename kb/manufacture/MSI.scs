@@ -12,6 +12,6 @@ MSI
 		    <= nrel_sc_text_translation:
 				...
 				(* 
-		            -> rrel_example: [MSI - это изготовитель видеокарты] (* <-lang_ru;; *);;
+		            -> rrel_example: [MSI - тайваньская компания по производству электроники.] (* <-lang_ru;; *);;
 				*);;
 		*);;

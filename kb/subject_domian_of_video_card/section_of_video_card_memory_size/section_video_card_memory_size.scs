@@ -1,0 +1,12 @@
+section_of_video_card_memory_size
+	=> nrel_main_idtf:
+		[Раздел. Объём памяти видеокарты]
+			(* <- lang_ru;; *);;
+	
+section_of_video_card_memory_size
+    -> rrel_key_sc_element:	
+        256MB;
+        512MB;
+        1GB;
+        2GB;
+        4GB;;

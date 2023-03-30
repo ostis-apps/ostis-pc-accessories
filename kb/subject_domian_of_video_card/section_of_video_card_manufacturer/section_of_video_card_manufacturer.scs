@@ -1,10 +1,9 @@
-section_of_manufacturer
+section_of_video_card_manufacturer
 	=> nrel_main_idtf:
-		[Раздел. Производитель]
+		[Раздел. Производитель видеокарт]
 			(* <- lang_ru;; *);;
 	
-
-section_of_manufacturer	
+section_of_video_card_manufacturer
     -> rrel_key_sc_element:	
         Nvidia;
         AMD;

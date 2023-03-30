@@ -1,0 +1,43 @@
+section_of_product_line
+	=> nrel_main_idtf: 
+		[Product line] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf:
+		[Раздел. Модельный ряд]
+			(* <- lang_ru;; *);;
+			
+section_of_product_line	
+    -> rrel_key_sc_element:	
+        intel_core_i3;
+	intel_core_i5;
+	intel_core_i7;
+	intel_core_i9;
+	amd_ryzen_3;
+	amd_ryzen_5;
+	amd_ryzen_7;
+	amd_ryzen_9;
+	intel_xeon_e3;
+	intel_xeon_e5;
+	intel_xeon_e7;
+	amd_epyc;
+	qualcomm_snapdragon;
+	apple_m1;;
+        
+section_of_product_line
+	
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition:
+			
+			 [Опр.(Модельный ряд)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Модельный ряд процессора - это перечень моделей процессоров, которые выпускает производитель. В модельном ряду обычно содержатся процессоры разной производительности и ценовой категории, что позволяет потребителям выбирать наиболее подходящий вариант для своих нужд и возможностей. Кроме того, в модельный ряд могут входить процессоры с разным количеством ядер, частотой работы, объемом кэш-памяти и другими характеристиками.).] 
+		            (* <-lang_ru;;*);;
+				*);;
+		*);;       
+        
+        
+   

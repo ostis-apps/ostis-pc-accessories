@@ -1,0 +1,18 @@
+Chieftec
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Chieftec] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Chieftec)] (* <-lang_ru;; *);;
+		    	<= nrel_sc_text_translation:
+				...
+				(* 
+		            		-> rrel_example: [Chieftec - тайваньская компания, производящая компьютерные компоненты, такие как корпуса, блоки питания и вентиляторы, для различных рынков и потребностей.
+] (* <-lang_ru;; *);;
+				*);;
+		*);;

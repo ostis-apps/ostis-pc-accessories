@@ -1,0 +1,12 @@
+section_of_tipe_of_video_card_memory
+	=> nrel_main_idtf:
+		[Раздел. Тип памяти видеокарты]
+			(* <- lang_ru;; *);;
+	
+section_of_tipe_of_video_card_memory
+    -> rrel_key_sc_element:	
+        GDDR3;
+        GDDR5;
+        GDDR6;
+        HBM2;
+        HBM3;;

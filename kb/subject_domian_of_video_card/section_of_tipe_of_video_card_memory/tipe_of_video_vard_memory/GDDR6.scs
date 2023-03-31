@@ -1,0 +1,17 @@
+GDDR6
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[GDDR6] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(GDDR6)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [GDDR6 (Graphics Double Data Rate) — 6-е поколение памяти DDR SDRAM, предназначенной для обработки графических данных (видеопамять) и для приложений, требующих высокой производительнос] (* <-lang_ru;; *);;
+                *);;
+        *);;

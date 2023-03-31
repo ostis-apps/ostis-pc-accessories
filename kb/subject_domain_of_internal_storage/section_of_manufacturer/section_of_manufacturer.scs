@@ -1,6 +1,6 @@
 section_of_manufacturer_internal_storage
 	=> nrel_main_idtf:
-		[Раздел. Производитель]
+		[Раздел. Производитель внутренних накопителей]
 			(* <- lang_ru;; *);;
 	
 

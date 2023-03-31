@@ -1,0 +1,17 @@
+section_of_l2_cache
+    <- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[Раздел.L2 кэш.]
+			(* <- lang_ru;; *);
+
+    <- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(L2 кэш)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [L2 кэш (Level 2 Cache) - это небольшая, но быстрая память, которая находится внутри процессора и используется для временного хранения данных, наиболее часто используемых ядрами процессора. ] (* <-lang_ru;; *);;
+                *);;
+        *);;

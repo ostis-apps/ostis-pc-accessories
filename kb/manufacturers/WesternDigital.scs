@@ -1,0 +1,17 @@
+Western_Digital
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Western_Digital] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Western Digital)] (* <-lang_ru;; *);;
+		    	<= nrel_sc_text_translation:
+				...
+				(* 
+		            		-> rrel_example: [ Western Digital - это американская компания, которая специализируется на производстве компьютерных накопителей, таких как внешние и внутренние жесткие диски (HDD), твердотельные накопители (SSD), а также сетевые устройства хранения данных. ] (* <-lang_ru;; *);;
+				*);;
+		*);;

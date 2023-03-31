@@ -1,0 +1,15 @@
+section_of_manufacturer_internal_storage
+	=> nrel_main_idtf:
+		[Раздел. Производитель]
+			(* <- lang_ru;; *);;
+	
+
+section_of_manufacturer_internal_storage	
+    -> rrel_key_sc_element:	
+        Western_Digital;
+        Seagate;
+        Toshiba;
+        Kingston;
+        Crucial;
+        Corsair;
+        Intel;;

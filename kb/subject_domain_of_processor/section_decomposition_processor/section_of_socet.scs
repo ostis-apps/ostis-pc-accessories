@@ -1,0 +1,32 @@
+section_of_socket
+	=> nrel_main_idtf: 
+		[Socket] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf:
+		[Раздел. Сокет]
+			(* <- lang_ru;; *);;
+			
+section_of_socket	
+    -> rrel_key_sc_element:	
+        sockets_for_connecting_processors_to_networks;
+        sockets_for_connecting_peripherals;
+        memory_sockets;;
+        
+section_of_socket
+	
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition:
+			
+			 [Опр.(Сокет)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Сокет процессора - это программный интерфейс для связи процессора с другими устройствами на уровне аппаратного обеспечения.).] 
+		            (* <-lang_ru;;*);;
+				*);;
+		*);;       
+        
+        
+   

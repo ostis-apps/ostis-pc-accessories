@@ -1,6 +1,6 @@
 section_of_manufacturer_power_unit
 	=> nrel_main_idtf:
-		[Раздел. Производитель]
+		[Раздел. Производитель блока питания]
 			(* <- lang_ru;; *);;
 	
 

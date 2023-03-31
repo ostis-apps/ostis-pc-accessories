@@ -1,0 +1,42 @@
+section_of_crystal_code_name
+	=> nrel_main_idtf: 
+		[Crystal code name] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf:
+		[Раздел. Кодовое название кристалла]
+			(* <- lang_ru;; *);;
+			
+section_of_crystal_code_name	
+    -> rrel_key_sc_element:	
+	Skylake;
+	Kaby_Lake;
+	Coffee_Lake;
+	Ice_Lake;
+	Comet_Lake;
+	Tiger_Lake;
+	Alder_Lake;
+	Bulldozer;
+	Piledriver;
+	Zen;
+	Ryzen;
+	Threadripper;
+	EPYC;;
+        
+section_of_crystal_code_name
+	
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition:
+			
+			 [Опр.(Кодовое название кристалла)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Кодовое название кристалла (Crystal code name) - это уникальное название, которое используется производителем процессора для идентификации определенной модели кристалла.).] 
+		            (* <-lang_ru;;*);;
+				*);;
+		*);;       
+        
+        
+   

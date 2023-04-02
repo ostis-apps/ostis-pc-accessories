@@ -4,6 +4,4 @@ subject_domain_of_video_card_GPU_frequency
 	<-subject_domain; 
 	<-subject_domain_of_video_card; 
     ->rrel_maximum_studied_object_class:
-        concept_video_card_GPU_frequency;
-    ->rrel_not_maximum_studied_object_class:
-        concept_A;;
+        concept_video_card_GPU_frequency;;

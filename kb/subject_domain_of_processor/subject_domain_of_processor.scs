@@ -10,27 +10,46 @@ subject_domain_of_processor
 
     ->rrel_not_maximum_studied_object_class: 
         concept_AMD;
-        concept_Nvidia;
         concept_Intel;
-        concept_Gigabyte;
-        concept_ASUS;
-        concept_ZOTAC;
-        concept_MSI;
-        concept_Colorful;
-        concept_256MB;
-        concept_512MB;
-        concept_1GB;
-        concept_2GB;
-        concept_4GB;
-        concept_GDDR3;
-        concept_GDDR5;
-        concept_GDDR6;
-        concept_HBM2;
-        concept_HBM3;
-        concept_64bit;
-        concept_128bit;
-        concept_256bit;
-        concept_512bit;
+        concept_skylake;
+	concept_kaby_lake;
+	concept_coffee_lake;
+	concept_ice_lake;
+	concept_comet_lake;
+	concept_tiger_lake;
+	concept_alder_lake;
+	concept_bulldozer;
+	concept_piledriver;
+	concept_zen;
+	concept_ryzen;
+	concept_threadripper;
+	concept_epyc;
+	concept_intel_core_i3;
+	concept_intel_core_i5;
+	concept_intel_core_i7;
+	concept_intel_core_i9;
+	concept_amd_ryzen_3;
+	concept_amd_ryzen_5;
+	concept_amd_ryzen_7;
+	concept_amd_ryzen_9;
+	concept_intel_xeon_e3;
+	concept_intel_xeon_e5;
+	concept_intel_xeon_e7;
+	concept_amd_epyc;
+	concept_qualcomm_snapdragon;
+	concept_apple_m1;
+	concept_45_nm;
+	concept_32_nm;
+	concept_22_nm;
+	concept_14_nm;
+	concept_10_nm;
+	concept_7_nm;
+	concept_5_nm;
+	concept_3_nm;
+	concept_sockets_for_connecting_processors_to_networks;
+	concept_sockets_for_connecting_peripherals;
+	concept_memory_sockets;
+
 
 
 =>nrel_private_subject_domain:
@@ -55,52 +74,52 @@ subject_domain_of_processor
 
 	
 		
-subject_domain_of_manufacturer => nrel_main_idtf: [Производитель]
+subject_domain_of_manufacturer => nrel_main_idtf: [Предметная область производитель]
 (* <- lang_ru;; *);;
 
-subject_domain_of_socket => nrel_main_idtf: [Сокет]
+subject_domain_of_socket => nrel_main_idtf: [Предметная область сокет]
 (* <- lang_ru;; *);;
 
-subject_domain_of_product_line => nrel_main_idtf: [Модельный ряд]
+subject_domain_of_product_line => nrel_main_idtf: [Предметная область модельный ряд]
 (* <- lang_ru;; *);;
 
-subject_domain_of_core_count => nrel_main_idtf: [Количество ядер]
+subject_domain_of_core_count => nrel_main_idtf: [Предметная область количество ядер]
 (* <- lang_ru;; *);;
 
-subject_domain_of_integrated_graphics => nrel_main_idtf: [Встроенная графика]
+subject_domain_of_integrated_graphics => nrel_main_idtf: [Предметная область встроенная графика]
 (* <- lang_ru;; *);;
 
-subject_domain_of_crystal_code_name => nrel_main_idtf: [Кодовое название кристалла]
+subject_domain_of_crystal_code_name => nrel_main_idtf: [Предметная область кодовое название кристалла]
 (* <- lang_ru;; *);;
 
-subject_domain_of_base_clock_frequency => nrel_main_idtf: [Базовая тактовая частота]
+subject_domain_of_base_clock_frequency => nrel_main_idtf: [Предметная область базовая тактовая частота]
 (* <- lang_ru;; *);;
 
-subject_domain_of_maximum_frequency => nrel_main_idtf: [Максимальная тактовая частота]
+subject_domain_of_maximum_frequency => nrel_main_idtf: [Предметная область максимальная тактовая частота]
 (* <- lang_ru;; *);;
 
-subject_domain_of_kernel_multithreading => nrel_main_idtf: [Многопоточность ядра]
+subject_domain_of_kernel_multithreading => nrel_main_idtf: [Предметная область многопоточность ядра]
 (* <- lang_ru;; *);;
 
-subject_domain_of_tdp => nrel_main_idtf: [Расчетная тепловая мощность (TDP)]
+subject_domain_of_tdp => nrel_main_idtf: [Предметная область расчетная тепловая мощность (TDP)]
 (* <- lang_ru;; *);;
 
-subject_domain_of_process_technology => nrel_main_idtf: [Техпроцесс]
+subject_domain_of_process_technology => nrel_main_idtf: [Предметная область техпроцесс]
 (* <- lang_ru;; *);;
 
-subject_domain_of_l2_cache => nrel_main_idtf: [Кэш L2]
+subject_domain_of_l2_cache => nrel_main_idtf: [Предметная область кэш L2]
 (* <- lang_ru;; *);;
 
-subject_domain_of_l3_cache=> nrel_main_idtf: [Кэш L3]
+subject_domain_of_l3_cache=> nrel_main_idtf: [Предметная область кэш L3]
 (* <- lang_ru;; *);;
 
-subject_domain_of_memory_support => nrel_main_idtf: [Поддержка памяти]
+subject_domain_of_memory_support => nrel_main_idtf: [Предметная область поддержка памяти]
 (* <- lang_ru;; *);;
 
-subject_domain_of_memory_channels => nrel_main_idtf: [Количество каналов памяти]
+subject_domain_of_memory_channels => nrel_main_idtf: [Предметная область количество каналов памяти]
 (* <- lang_ru;; *);;
 
-subject_domain_of_integrated_pci_express_controller => nrel_main_idtf: [Встроенный контроллер PCI Express]
+subject_domain_of_integrated_pci_express_controller => nrel_main_idtf: [Предметная область встроенный контроллер PCI Express]
 (* <- lang_ru;; *);;
 
 

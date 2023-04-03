@@ -1,0 +1,27 @@
+subject_domain_of_tipe_of_kernel_multithreading
+    =>nrel_main_idtf:[Предметная область Многопоточность ядра] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of kernel multithreading] (* <-lang_en;;*);
+	<-subject_domain; 
+	<-subject_domain_of_processor; 
+    ->rrel_maximum_studied_object_class:
+        concept_kernel_multithreading;
+    ->rrel_not_maximum_studied_object_class:
+        concept_threads;;
+
+/*section_of_kernel_multithreading
+    <- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[Раздел. Многопоточность ядра.]
+			(* <- lang_ru;; *);
+
+    <- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Многопоточность ядра)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Многопоточность ядра процессора - это способность ядра процессора обрабатывать несколько потоков выполнения (threads) одновременно. Она может быть реализована как с помощью аппаратных средств, так и программно. Многопоточность ядра позволяет повысить эффективность и производительность процессора в условиях параллельной обработки задач.] (* <-lang_ru;; *);;
+                *);;
+        *);;*/

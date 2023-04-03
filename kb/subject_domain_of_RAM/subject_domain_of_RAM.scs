@@ -1,6 +1,8 @@
 subject_domain_of_RAM
+
     =>nrel_main_idtf:[Предметная область оперетивная память] (* <-lang_ru;;*);
     =>nrel_main_idtf:[Subject domain of RAM] (* <-lang_en;;*);
+
 
 	<-subject_domain; 
 	<-subject_domain_of_pc_knowledge_base;

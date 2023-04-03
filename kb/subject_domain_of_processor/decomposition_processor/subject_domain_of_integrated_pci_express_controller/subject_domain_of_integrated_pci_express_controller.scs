@@ -1,0 +1,27 @@
+subject_domain_of_tipe_of_integrated_pci_express_controller
+    =>nrel_main_idtf:[Предметная область Встроенный контроллер PCI Express] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of integrated pci express controller] (* <-lang_en;;*);
+	<-subject_domain; 
+	<-subject_domain_of_processor; 
+    ->rrel_maximum_studied_object_class:
+        concept_tipe_of_integrated_pci_express_controller;
+    ->rrel_not_maximum_studied_object_class:
+        concept_microprocessor;;
+
+/* section_of_integrated_pci_express_controller
+    <- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[Раздел. Встроенный контроллер PCI Express.]
+			(* <- lang_ru;; *);
+
+    <- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Встроенный контроллер PCI Express)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Встроенный контроллер PCI Express (PCIe) - это компонент, интегрированный в микропроцессор или чипсет материнской платы, который обеспечивает связь с устройствами, подключенными через интерфейс PCIe.] (* <-lang_ru;; *);;
+                *);;
+        *);;*/

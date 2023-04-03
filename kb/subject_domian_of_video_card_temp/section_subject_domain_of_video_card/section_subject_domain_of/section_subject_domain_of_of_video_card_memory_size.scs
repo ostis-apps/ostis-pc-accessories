@@ -1,0 +1,5 @@
+section_subject_domain_of_video_card_memory_size
+    =>nrel_main_idtf:[Раздел. Предметная область объёма памяти видеокарты] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of size of video card memory] (* <-lang_en;;*);
+    <-atomic_section;
+    ->rrel_key_sc_element: subject_domain_of_video_card_memory_size;;

@@ -1,5 +1,4 @@
 subject_domain_of_processor
-<<<<<<< HEAD
     =>nrel_main_idtf:[Предметная область процессор] (* <-lang_ru;;*);
     =>nrel_main_idtf:[Subject domain of processor] (* <-lang_en;;*);
 
@@ -102,80 +101,6 @@ subject_domain_of_memory_channels => nrel_main_idtf: [Количество ка�
 (* <- lang_ru;; *);;
 
 subject_domain_of_integrated_pci_express_controller => nrel_main_idtf: [Встроенный контроллер PCI Express]
-=======
-=> nrel_main_idtf:
-	[Процессор]
-	(* <- lang_ru;; *);
-
-<- not_enough_formed_structure;
-
-<= nrel_section_decomposition:
-	{
-		section_of_manufacturer;
-		section_of_socket;
-		section_of_product_line;
-		section_of_core_count;
-		section_of_integrated_graphics;
-		section_of_crystal_code_name;
-		section_of_base_clock_frequency;
-		section_of_maximum_frequency;
-		section_of_kernel_multithreading;
-		section_of_tdp;
-		section_of_process_technology;
-		section_of_l2_cache;
-		section_of_l3_cache;
-		section_of_memory_support;
-		section_of_memory_channels;
-		section_of_integrated_pci_express_controller
-	};;
-		
-section_of_manufacturer => nrel_main_idtf: [Производитель]
-(* <- lang_ru;; *);;
-
-section_of_socket => nrel_main_idtf: [Сокет]
-(* <- lang_ru;; *);;
-
-section_of_product_line => nrel_main_idtf: [Модельный ряд]
-(* <- lang_ru;; *);;
-
-section_of_core_count => nrel_main_idtf: [Количество ядер]
-(* <- lang_ru;; *);;
-
-section_of_integrated_graphics => nrel_main_idtf: [Встроенная графика]
-(* <- lang_ru;; *);;
-
-section_of_crystal_code_name => nrel_main_idtf: [Кодовое название кристалла]
-(* <- lang_ru;; *);;
-
-section_of_base_clock_frequency => nrel_main_idtf: [Базовая тактовая частота]
-(* <- lang_ru;; *);;
-
-section_of_maximum_frequency => nrel_main_idtf: [Максимальная тактовая частота]
-(* <- lang_ru;; *);;
-
-section_of_kernel_multithreading => nrel_main_idtf: [Многопоточность ядра]
-(* <- lang_ru;; *);;
-
-section_of_tdp => nrel_main_idtf: [Расчетная тепловая мощность (TDP)]
-(* <- lang_ru;; *);;
-
-section_of_process_technology => nrel_main_idtf: [Техпроцесс]
-(* <- lang_ru;; *);;
-
-section_of_l2_cache => nrel_main_idtf: [Кэш L2]
-(* <- lang_ru;; *);;
-
-section_of_l3_cache=> nrel_main_idtf: [Кэш L3]
-(* <- lang_ru;; *);;
-
-section_of_memory_support => nrel_main_idtf: [Поддержка памяти]
-(* <- lang_ru;; *);;
-
-section_of_memory_channels => nrel_main_idtf: [Количество каналов памяти]
-(* <- lang_ru;; *);;
-
-section_of_integrated_pci_express_controller => nrel_main_idtf: [Встроенный контроллер PCI Express]
->>>>>>> parent of a2b6363... delite main
 (* <- lang_ru;; *);;
 
 

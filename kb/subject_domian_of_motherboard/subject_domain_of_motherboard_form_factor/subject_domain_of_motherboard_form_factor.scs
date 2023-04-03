@@ -1,0 +1,12 @@
+subject_domain_of_motherboard_form_factor
+    =>nrel_main_idtf:[Предметная область форм-фактор материнской платы] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of motherboard form factor] (* <-lang_en;;*);
+	<-subject_domain; 
+	<-subject_domain_of_motherboard; 
+    ->rrel_maximum_studied_object_class:
+        concept_motherboard_form_factor;
+    ->rrel_not_maximum_studied_object_class:
+        concept_AT;
+        concept_ATX;
+        concept_LPX;
+        concept_NLX;;

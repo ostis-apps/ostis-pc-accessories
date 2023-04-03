@@ -1,0 +1,17 @@
+Kingston
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Kingston] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Kingston)] (* <-lang_ru;; *);;
+		    	<= nrel_sc_text_translation:
+				...
+				(* 
+		            		-> rrel_example: [ Kingston - это американская компания, которая специализируется на производстве компьютерных компонентов и периферийных устройств, таких как оперативная память, флэш-накопители, карты памяти, SSD-накопители и др. ] (* <-lang_ru;; *);;
+				*);;
+		*);;

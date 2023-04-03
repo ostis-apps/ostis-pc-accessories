@@ -1,0 +1,12 @@
+section_of_manufacturer_RAM
+	=> nrel_main_idtf:
+		[Раздел. Производитель оперативной памяти]
+			(* <- lang_ru;; *);;
+	
+
+section_of_manufacturer_RAM	
+    -> rrel_key_sc_element:	
+	Patriot;
+        Kingston;
+        Crucial;
+        Corsair;;

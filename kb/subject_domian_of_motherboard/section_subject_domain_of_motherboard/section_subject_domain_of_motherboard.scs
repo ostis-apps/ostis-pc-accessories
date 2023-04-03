@@ -11,5 +11,5 @@ section_subject_domain_of_motherboard
 		subject_domain_of_motherboard_chipset;
 		subject_domain_of_motherboard_maximum_memory_frequency;
 		subject_domain_of_motherboard_maximum_memory_capacity;
-		subject_domain_of_example_of_motherboard;;
+		subject_domain_of_example_of_motherboard
     };;

@@ -23,10 +23,10 @@ subject_domain_of_motherboard
         concept_ATX;
         concept_LPX;
         concept_NLX;
-        concept_LGA_2011-v3;
-        concept_SocketAM3+;
+        concept_LGA_2011_v3;
+        concept_SocketAM3;
         concept_SocketAM4;
-        concept_SocketFM2+;
+        concept_SocketFM2;
         concept_8GB;
         concept_16GB;
         concept_32GB;

@@ -1,76 +1,106 @@
 subject_domain_of_processor
-=> nrel_main_idtf:
-	[Процессор]
-	(* <- lang_ru;; *);
+    =>nrel_main_idtf:[Предметная область процессор] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of processor] (* <-lang_en;;*);
 
-<- not_enough_formed_structure;
+	<-subject_domain; 
+	<-subject_domain_of_pc_knowledge_base; 
 
-<= nrel_section_decomposition:
-	{
-		section_of_manufacturer;
-		section_of_socket;
-		section_of_product_line;
-		section_of_core_count;
-		section_of_integrated_graphics;
-		section_of_crystal_code_name;
-		section_of_base_clock_frequency;
-		section_of_maximum_frequency;
-		section_of_kernel_multithreading;
-		section_of_tdp;
-		section_of_process_technology;
-		section_of_l2_cache;
-		section_of_l3_cache;
-		section_of_memory_support;
-		section_of_memory_channels;
-		section_of_integrated_pci_express_controller
-	};;
+    ->rrel_maximum_studied_object_class:
+        concept_processor;
+
+    ->rrel_not_maximum_studied_object_class: 
+        concept_AMD;
+        concept_Nvidia;
+        concept_Intel;
+        concept_Gigabyte;
+        concept_ASUS;
+        concept_ZOTAC;
+        concept_MSI;
+        concept_Colorful;
+        concept_256MB;
+        concept_512MB;
+        concept_1GB;
+        concept_2GB;
+        concept_4GB;
+        concept_GDDR3;
+        concept_GDDR5;
+        concept_GDDR6;
+        concept_HBM2;
+        concept_HBM3;
+        concept_64bit;
+        concept_128bit;
+        concept_256bit;
+        concept_512bit;
+
+
+=>nrel_private_subject_domain:
+	
+		subject_domain_of_manufacturer;
+		subject_domain_of_socket;
+		subject_domain_of_product_line;
+		subject_domain_of_core_count;
+		subject_domain_of_integrated_graphics;
+		subject_domain_of_crystal_code_name;
+		subject_domain_of_base_clock_frequency;
+		subject_domain_of_maximum_frequency;
+		subject_domain_of_kernel_multithreading;
+		subject_domain_of_tdp;
+		subject_domain_of_process_technology;
+		subject_domain_of_l2_cache;
+		subject_domain_of_l3_cache;
+		subject_domain_of_memory_support;
+		subject_domain_of_memory_channels;
+		subject_domain_of_integrated_pci_express_controller;;
+
+
+	
 		
-section_of_manufacturer => nrel_main_idtf: [Производитель]
+subject_domain_of_manufacturer => nrel_main_idtf: [Производитель]
 (* <- lang_ru;; *);;
 
-section_of_socket => nrel_main_idtf: [Сокет]
+subject_domain_of_socket => nrel_main_idtf: [Сокет]
 (* <- lang_ru;; *);;
 
-section_of_product_line => nrel_main_idtf: [Модельный ряд]
+subject_domain_of_product_line => nrel_main_idtf: [Модельный ряд]
 (* <- lang_ru;; *);;
 
-section_of_core_count => nrel_main_idtf: [Количество ядер]
+subject_domain_of_core_count => nrel_main_idtf: [Количество ядер]
 (* <- lang_ru;; *);;
 
-section_of_integrated_graphics => nrel_main_idtf: [Встроенная графика]
+subject_domain_of_integrated_graphics => nrel_main_idtf: [Встроенная графика]
 (* <- lang_ru;; *);;
 
-section_of_crystal_code_name => nrel_main_idtf: [Кодовое название кристалла]
+subject_domain_of_crystal_code_name => nrel_main_idtf: [Кодовое название кристалла]
 (* <- lang_ru;; *);;
 
-section_of_base_clock_frequency => nrel_main_idtf: [Базовая тактовая частота]
+subject_domain_of_base_clock_frequency => nrel_main_idtf: [Базовая тактовая частота]
 (* <- lang_ru;; *);;
 
-section_of_maximum_frequency => nrel_main_idtf: [Максимальная тактовая частота]
+subject_domain_of_maximum_frequency => nrel_main_idtf: [Максимальная тактовая частота]
 (* <- lang_ru;; *);;
 
-section_of_kernel_multithreading => nrel_main_idtf: [Многопоточность ядра]
+subject_domain_of_kernel_multithreading => nrel_main_idtf: [Многопоточность ядра]
 (* <- lang_ru;; *);;
 
-section_of_tdp => nrel_main_idtf: [Расчетная тепловая мощность (TDP)]
+subject_domain_of_tdp => nrel_main_idtf: [Расчетная тепловая мощность (TDP)]
 (* <- lang_ru;; *);;
 
-section_of_process_technology => nrel_main_idtf: [Техпроцесс]
+subject_domain_of_process_technology => nrel_main_idtf: [Техпроцесс]
 (* <- lang_ru;; *);;
 
-section_of_l2_cache => nrel_main_idtf: [Кэш L2]
+subject_domain_of_l2_cache => nrel_main_idtf: [Кэш L2]
 (* <- lang_ru;; *);;
 
-section_of_l3_cache=> nrel_main_idtf: [Кэш L3]
+subject_domain_of_l3_cache=> nrel_main_idtf: [Кэш L3]
 (* <- lang_ru;; *);;
 
-section_of_memory_support => nrel_main_idtf: [Поддержка памяти]
+subject_domain_of_memory_support => nrel_main_idtf: [Поддержка памяти]
 (* <- lang_ru;; *);;
 
-section_of_memory_channels => nrel_main_idtf: [Количество каналов памяти]
+subject_domain_of_memory_channels => nrel_main_idtf: [Количество каналов памяти]
 (* <- lang_ru;; *);;
 
-section_of_integrated_pci_express_controller => nrel_main_idtf: [Встроенный контроллер PCI Express]
+subject_domain_of_integrated_pci_express_controller => nrel_main_idtf: [Встроенный контроллер PCI Express]
 (* <- lang_ru;; *);;
 
 

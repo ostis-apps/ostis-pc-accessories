@@ -1,0 +1,29 @@
+subject_domain_of_tipe_of_integrated_graphics
+    =>nrel_main_idtf:[Предметная область интегрированная видеокарта] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of integrated graphics] (* <-lang_en;;*);
+	<-subject_domain; 
+	<-ssubject_domain_of_processor; 
+    ->rrel_maximum_studied_object_class:
+        concept_integrated_graphics;
+    ->rrel_not_maximum_studied_object_class:
+        concept_motherboard;;
+    
+
+/*section_of_integrated_graphics
+    <- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[Раздел. Интегрированная видеокарта.]
+			(* <- lang_ru;; *);
+
+    <- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Интегрированная видеокарта)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Интегрированная видеокарта - это компонент, встроенный в материнскую плату компьютера, который обеспечивает вывод видео на экран. Она использует общую оперативную память системы, в отличие от дискретной видеокарты, которая имеет собственную память.] (* <-lang_ru;; *);;
+                *);;
+        *);;
+        */

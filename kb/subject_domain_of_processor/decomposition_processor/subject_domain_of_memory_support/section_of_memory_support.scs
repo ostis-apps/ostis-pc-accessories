@@ -1,0 +1,45 @@
+
+subject_domain_of_memory_support
+    =>nrel_main_idtf:[Предметная область производители процессоров] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain memory_support] (* <-lang_en;;*);
+	<-subject_domain; 
+	<-ssubject_domain_of_processor; 
+    ->rrel_maximum_studied_object_class:
+        concept_memory_support;
+    ->rrel_not_maximum_studied_object_class:
+        concept_AMD;
+        concept_Intel;;
+
+/*section_of_memory_support
+	=> nrel_main_idtf: 
+		[Memory support] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf:
+		[Раздел. Поддержка памяти]
+			(* <- lang_ru;; *);;
+			
+section_of_memory_support	
+    -> rrel_key_sc_element:	
+       DDR2;
+       DDR3;
+       DDR4;
+       DDR5;;
+        
+section_of_memory_support
+	
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition:
+			
+			 [Опр.(Поддержка памяти)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Поддержка памяти - это способность процессора работать с определенным типом памяти, включая форм-фактор, объем и скорость. ).] 
+		            (* <-lang_ru;;*);;
+				*);;
+		*);;       
+        
+        
+   */

@@ -1,0 +1,27 @@
+subject_domain_of_tipe_of_l2_cache
+    =>nrel_main_idtf:[Предметная область л2 кэш] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of l2 cache] (* <-lang_en;;*);
+	<-subject_domain; 
+	<-subject_domain_of_processor; 
+    ->rrel_maximum_studied_object_class:
+        concept_tipe_of_l2_cache;
+    ->rrel_not_maximum_studied_object_class:
+        concept_cache;;
+
+/*section_of_l2_cache
+    <- sc_node_not_relation;
+	=> nrel_main_idtf:
+		[Раздел.L2 кэш.]
+			(* <- lang_ru;; *);
+
+    <- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(L2 кэш)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [L2 кэш (Level 2 Cache) - это небольшая, но быстрая память, которая находится внутри процессора и используется для временного хранения данных, наиболее часто используемых ядрами процессора. ] (* <-lang_ru;; *);;
+                *);;
+        *);;*/

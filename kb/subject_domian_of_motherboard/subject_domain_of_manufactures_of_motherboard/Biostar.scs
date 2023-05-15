@@ -1,0 +1,17 @@
+concept_Biostar
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Biostar] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Biostar)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Biostar Microtech International Corp. — тайваньская компания, которая разрабатывает и производит компьютерное оборудование, такое как материнские платы, видеокарты, платы расширения, термопасты, наушники, ПК для домашних кинотеатров, пульты дистанционного управления, настольные компьютеры, компьютеры barebone.] (* <-lang_ru;; *);;
+				*);;
+		*);;

@@ -1,0 +1,17 @@
+concept_32GB
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[32GB] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(32GB)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Поддержка памяти материнской платы 64GB означает, что данная материнская плата может поддерживать установку до 64 гигабайт оперативной памяти.] (* <-lang_ru;; *);;
+				*);;
+		*);;

@@ -6,6 +6,6 @@ subject_domain_of_motherboard_maximum_memory_frequency
     ->rrel_maximum_studied_object_class:
         concept_motherboard_maximum_memory_frequency;
     ->rrel_not_maximum_studied_object_class:
-        concept_2133MHz;
+        concept_2133MHz
         concept_3200MHz;
         concept_5000MHz;;

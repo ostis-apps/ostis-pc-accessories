@@ -1,0 +1,17 @@
+concept_ASRock
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[ASRock] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(ASRock)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [ASRock — производитель материнских плат, HTPC и промышленных ПК. Компания располагается на Тайване, её руководителем является Тед Сюй Шичан. ASRock основана в 2002 году и ныне является собственностью Pegatron Corporation.] (* <-lang_ru;; *);;
+				*);;
+		*);;

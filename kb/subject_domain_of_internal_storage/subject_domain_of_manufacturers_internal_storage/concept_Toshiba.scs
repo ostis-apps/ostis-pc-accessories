@@ -1,0 +1,17 @@
+concept_Toshiba
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Toshiba] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Toshiba)] (* <-lang_ru;; *);;
+		    	<= nrel_sc_text_translation:
+				...
+				(* 
+		            		-> rrel_example: [ Toshiba - это японская многопрофильная корпорация, которая производит широкий спектр продукции, включая компьютерные компоненты и электронику, бытовую технику, медицинское оборудование, энергетическое оборудование и многое другое. ] (* <-lang_ru;; *);;
+				*);;
+		*);;

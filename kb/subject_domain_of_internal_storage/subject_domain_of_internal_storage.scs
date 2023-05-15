@@ -16,13 +16,38 @@ subject_domain_of_internal_storage
         concept_Crucial;
         concept_Corsair;
         concept_Intel;
+        
+        concept_buffer_16MB;
+        concept_buffer_64MB;
+        concept_buffer_128MB;
+        concept_buffer_256MB;
+        
+        concept_2_5;
+        concept_3_5;
+        
+        concept_SATA;
+        concept_PCIe;
+        concept_IDE;
+        concept_SCSI;
+        
+		concept_memory_capacity_128GB;
+        concept_memory_capacity_500GB;
+        concept_memory_capacity_1TB;
+        concept_memory_capacity_2TB;
+        
+		concept_reading_speed_100MB;
+        concept_reading_speed_200MB;
+        concept_reading_speed_500MB;
+        concept_reading_speed_3GB;
+        
+		concept_HDD;
+		concept_SDD;
 
      =>nrel_private_subject_domain:        
         subject_domain_of_type_of_memory;
 		subject_domain_of_manufacturers_of_internal_storage;
 		subject_domain_of_memory_capacity;
-		subject_domain_of_form_factor;
+		subject_domain_of_form_factor_of_internal_storage;
 		subject_domain_of_reading_speed;
 		subject_domain_of_interface;
-		subject_domain_of_buffer;
-		subject_domain_of_internal_storage;;
+		subject_domain_of_buffer;;

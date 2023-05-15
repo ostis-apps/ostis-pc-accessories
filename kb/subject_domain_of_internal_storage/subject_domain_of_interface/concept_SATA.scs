@@ -1,0 +1,17 @@
+concept_SATA
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[SATA] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(SATA)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Serial ATA (SATA) - средняя скорость передачи данных для SATA III (3-го поколения) составляет 6 Гбит/с.] (* <-lang_en;; *);;
+                *);;
+        *);;

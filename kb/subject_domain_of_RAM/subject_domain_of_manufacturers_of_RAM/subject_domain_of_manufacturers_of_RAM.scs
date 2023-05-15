@@ -2,7 +2,7 @@ subject_domain_of_manufacturers_of_RAM
 	=>nrel_main_idtf:[Предметная область производитель оперативной памяти] (* <-lang_ru;;*);
 	=>nrel_main_idtf:[Subject domain of manufacturers of RAM] (* <-lang_en;;*);
 	<-subject_domain; 
-	<-subject_domain_of_manufacturers_of_RAM;
+	<-subject_domain_of_RAM;
     ->rrel_maximum_studied_object_class:
         concept_manufacturer_of_RAM;
 	->rrel_not_maximum_studied_object_class:

@@ -1,0 +1,16 @@
+subject_domain_of_power
+    =>nrel_main_idtf:[Предметная область мощность] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of power] (* <-lang_en;;*);
+	<-subject_domain; 
+	<-subject_domain_of_power_unit; 
+    ->rrel_maximum_studied_object_class:
+        concept_power;
+    ->rrel_not_maximum_studied_object_class:
+        concept_300BT;
+        concept_400BT;
+        concept_500BT;
+        concept_600BT;
+        concept_750BT;
+        concept_850BT;
+        concept_1000BT;;
+

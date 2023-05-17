@@ -1,0 +1,17 @@
+concept_qualcomm_snapdragon
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[qualcomm_snapdragon] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(qualcomm_snapdragon)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Qualcomm Snapdragon - это семейство мобильных процессоров, разработанных компанией Qualcomm для использования в смартфонах, планшетах и других мобильных устройствах. Процессоры Snapdragon известны своей высокой производительностью, энергоэффективностью и поддержкой передовых технологий.] (* <-lang_ru;; *);;
+                *);;
+        *);;

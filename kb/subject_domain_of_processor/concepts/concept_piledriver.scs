@@ -1,0 +1,17 @@
+concept_piledriver
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[piledriver] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(piledriver)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Piledriver - это кодовое название микроархитектуры процессоров, разработанной компанией AMD. Эта микроархитектура была выпущена в 2012 году и является улучшенной версией предыдущей микроархитектуры Bulldozer.] (* <-lang_ru;; *);;
+                *);;
+        *);;

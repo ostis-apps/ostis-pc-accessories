@@ -1,0 +1,14 @@
+concept_video_card_memory_size
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Объем памяти видеокарты] (* <-lang_ru;; *);
+	<-rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Объем памяти видеокарты] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Объем памяти видеокарты - это количество памяти, которое доступно для использования видеокартой при обработке графики и выполнении графических вычислений. ](*<-lang_ru;;*);;
+			*);;
+		*);;

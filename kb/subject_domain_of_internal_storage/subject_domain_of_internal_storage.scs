@@ -13,7 +13,7 @@ subject_domain_of_internal_storage
 		concept_manufacturers_of_internal_storage;
 		concept_of_memory_capacity;
 		concept_form_factor_of_internal_storage;
-		concept_reading_speed;
+		concept_reading_speed; 
 		concept_interface;
 		concept_buffer;
 

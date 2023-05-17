@@ -9,34 +9,11 @@ subject_domain_of_power_unit
         concept_power_unit;
 
     ->rrel_not_maximum_studied_object_class:         
-        concept_Corsair;
-        concept_Gigabyte;
-        concept_SeaSonic;
-        concept_Aerocool;
-        concept_Chieftec;
-        concept_Deepcool;
-        concept_Zalman;
-        concept_Cougar;
-        
-        concept_ATX;
-        concept_MicroATX;
-        concept_ITX;
-        concept_SFX;
-        
-        concept_300BT;
-        concept_400BT;
-        concept_500BT;
-        concept_600BT;
-        concept_750BT;
-        concept_850BT;
-        concept_1000BT;
-        
-        concept_short_circuit_protection;
-		concept_overload_protection;
-		concept_overvoltage_protection;
-		concept_overheat_protection;
-		
-		concept_120x120;
+		concept_manufacturers_of_power_unit;
+		concept_power;
+		concept_size_of_fan;
+		concept_protective_functions;
+		concept_form_factor;
 
      =>nrel_private_subject_domain:		
 		subject_domain_of_manufacturers_of_power_unit;

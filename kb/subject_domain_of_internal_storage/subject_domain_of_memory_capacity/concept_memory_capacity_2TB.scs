@@ -1,0 +1,17 @@
+concept_memory_capacity_2TB
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[2TB] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(2TB)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [2TB - объём памяти в террабайтах (единицы измерения памяти), 2TB = 1000GB] (* <-lang_en;; *);;
+                *);;
+        *);;

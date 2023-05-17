@@ -1,0 +1,5 @@
+section_subject_domain_of_interface
+    =>nrel_main_idtf:[Раздел. Предметная область интерфейс] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of interface] (* <-lang_en;;*);
+    <-atomic_section;
+    ->rrel_key_sc_element: subject_domain_of_interface;;

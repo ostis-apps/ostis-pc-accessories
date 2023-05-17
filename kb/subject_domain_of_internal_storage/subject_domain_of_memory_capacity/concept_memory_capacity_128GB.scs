@@ -1,0 +1,17 @@
+concept_memory_capacity_128GB
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[128GB] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(128GB)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [128GB - объём памяти в террабайтах (единицы измерения памяти)] (* <-lang_en;; *);;
+                *);;
+        *);;

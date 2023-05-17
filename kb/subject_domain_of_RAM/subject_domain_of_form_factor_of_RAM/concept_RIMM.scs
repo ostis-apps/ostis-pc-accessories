@@ -1,0 +1,17 @@
+concept_RIMM
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[RIMM] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(RIMM)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [RIMM (Rambus Inline Memory Module) - это форм-фактор оперативной памяти, который ранее использовался в некоторых настольных компьютерах и серверах, но в настоящее время он устарел.] (* <-lang_en;; *);;
+                *);;
+        *);;

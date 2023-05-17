@@ -1,0 +1,17 @@
+concept_comet_lake
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[comet_lake] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(comet_lake)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Comet Lake - это кодовое название для десятого поколения процессоров Intel Core i3, i5 и i7 для настольных компьютеров. Эти процессоры были выпущены в 2020 году и производились на 14-нанометровом техпроцессе.] (* <-lang_ru;; *);;
+                *);;
+        *);;

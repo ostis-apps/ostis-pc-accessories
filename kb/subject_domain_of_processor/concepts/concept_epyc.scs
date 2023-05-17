@@ -1,0 +1,17 @@
+concept_epyc
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[epyc] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(epyc)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [EPYC - это линейка серверных процессоров, разработанная компанией AMD. Эти процессоры предназначены для использования в серверных системах, облачных вычислениях и других высокопроизводительных вычислительных задачах.] (* <-lang_ru;; *);;
+                *);;
+        *);;

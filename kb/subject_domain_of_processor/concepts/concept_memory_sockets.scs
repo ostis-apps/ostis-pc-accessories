@@ -1,0 +1,17 @@
+concept_memory_sockets
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Memory sockets] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Слоты памяти)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Memory sockets - это слоты на материнской плате компьютера, предназначенные для установки оперативной памяти (RAM). Они позволяют подключать дополнительные модули оперативной памяти, что увеличивает общее количество доступной памяти и может улучшить производительность компьютера.] (* <-lang_ru;; *);;
+                *);;
+        *);;

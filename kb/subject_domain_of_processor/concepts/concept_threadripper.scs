@@ -1,0 +1,17 @@
+concept_threadripper
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[threadripper] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(threadripper)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Threadripper - это линейка процессоров компании AMD для высокопроизводительных настольных компьютеров, предназначенных для использования в задачах, требующих многопоточной обработки. Они были выпущены в 2017 году и базируются на архитектуре Zen.] (* <-lang_ru;; *);;
+                *);;
+        *);;

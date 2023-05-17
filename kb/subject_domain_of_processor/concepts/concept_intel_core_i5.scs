@@ -1,0 +1,19 @@
+concept_intel_core_i5
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[intel_core_i5] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(intel_core_i5)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Intel Core i5 - это семейство процессоров, разработанных компанией Intel для использования в настольных и мобильных компьютерах. Процессоры Core i5 предназначены для выполнения более сложных задач, таких как игры, мультимедиа-приложения и более требовательных к производительности приложений.
+
+] (* <-lang_ru;; *);;
+                *);;
+        *);;

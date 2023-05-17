@@ -1,0 +1,14 @@
+concept_form_factor_of_RAM
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Форм-фактор оперативной памяти] (* <-lang_ru;; *);
+	<-rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Форм-фактор оперативной памяти] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Форм-фактор оперативной памяти - стандартный размер и конфигурация модулей, обеспечивающих их совместимость с материнской платой.](*<-lang_ru;;*);;
+			*);;
+		*);;

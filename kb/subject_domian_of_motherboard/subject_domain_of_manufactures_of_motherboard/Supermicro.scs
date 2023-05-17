@@ -1,0 +1,17 @@
+concept_Supermicro
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Supermicro] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Supermicro)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Supermicro — американская компания, крупный производитель материнских плат, корпусов, источников питания, систем охлаждения, контроллеров SAS, Ethernet и InfiniBand. Компания специализируется на выпуске x86-серверных платформ и различных комплектующих для серверов, рабочих станций и систем хранения данных.] (* <-lang_ru;; *);;
+				*);;
+		*);;

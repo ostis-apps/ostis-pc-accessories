@@ -1,0 +1,13 @@
+subject_domain_of_protective_functions
+    =>nrel_main_idtf:[Предметная область защитные функции] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of protective functions] (* <-lang_en;;*);
+	<-subject_domain; 
+	<-subject_domain_of_power_unit; 
+    ->rrel_maximum_studied_object_class:
+        concept_protective_functions;
+    ->rrel_not_maximum_studied_object_class:
+        concept_short_circuit_protection;
+		concept_overload_protection;
+		concept_overvoltage_protection;
+		concept_overheat_protection;;
+

@@ -1,0 +1,14 @@
+concept_of_memory_capacity
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Объем внутреннего накопителя] (* <-lang_ru;; *);
+	<-rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Объем внутреннего накопителя] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Объем внутреннего накопителя - это количество доступной памяти, которое можно использовать для хранения данных.](*<-lang_ru;;*);;
+			*);;
+		*);;

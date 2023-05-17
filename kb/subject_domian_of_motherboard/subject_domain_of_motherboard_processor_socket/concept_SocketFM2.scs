@@ -1,0 +1,17 @@
+concept_SocketFM2
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[SocketFM2] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(SocketFM2)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Сокет FM2 - это тип разъема, используемого на материнских платах для установки процессоров AMD семейства A-серии и Athlon X4.] (* <-lang_ru;; *);;
+				*);;
+		*);;

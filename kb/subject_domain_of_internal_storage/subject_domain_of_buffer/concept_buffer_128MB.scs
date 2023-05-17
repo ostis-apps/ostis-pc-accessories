@@ -1,0 +1,17 @@
+concept_buffer_128MB
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[128MB] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(128MB)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [128MB - объём памяти в мегабайтах (единицы измерения памяти)] (* <-lang_en;; *);;
+                *);;
+        *);;

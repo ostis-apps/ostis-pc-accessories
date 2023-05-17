@@ -1,0 +1,12 @@
+subject_domain_of_reading_speed
+	=>nrel_main_idtf:[Предметная область скорость чтения] (* <-lang_ru;;*);
+	=>nrel_main_idtf:[Subject domain of reading speed] (* <-lang_en;;*);
+	<-subject_domain; 
+	<-subject_domain_of_manufacturers_of_internal_storage;
+    ->rrel_maximum_studied_object_class:
+        concept_reading_speed;
+	->rrel_not_maximum_studied_object_class:
+		concept_reading_speed_100MB;
+        concept_reading_speed_200MB;
+        concept_reading_speed_500MB;
+        concept_reading_speed_3GB;;

@@ -9,39 +9,13 @@ subject_domain_of_motherboard
         concept_motherboard;
 
     ->rrel_not_maximum_studied_object_class: 
-        concept_AMD;
-        concept_Intel;
-        concept_Asus;
-        concept_MSI;
-        concept_GIGABYTE;
-        concept_ASRock;
-        concept_Tyan;
-        concept_Supermicro;
-        concept_Biostar;
-        concept_Dell;
-        concept_AT;
-        concept_ATX;
-        concept_LPX;
-        concept_NLX;
-        concept_LGA_2011_v3;
-        concept_SocketAM3;
-        concept_SocketAM4;
-        concept_SocketFM2;
-        concept_8GB;
-        concept_16GB;
-        concept_32GB;
-        concept_64GB;
-        concept_Intel_Z590;
-        concept_AMD_X570;
-        concept_Intel_Z490;
-        concept_AMD_B550;
-        concept_Intel_B460;
-        concept_2133MHz;
-        concept_3200MHz;
-        concept_5000MHz;
-        concept_128GB;
-        concept_256GB;
-        concept_512GB;
+	concept_motherboard_form_factor;
+	concept_motherboard_processor_socket;
+	concept_motherboard_memory_support;
+	concept_motherboard_chipset;
+	concept_motherboard_maximum_memory_frequency;
+	concept_motherboard_maximum_memory_capacity;
+	concept_example_of_motherboard;
        
 
      =>nrel_private_subject_domain:

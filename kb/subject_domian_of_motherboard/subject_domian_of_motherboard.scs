@@ -9,6 +9,7 @@ subject_domain_of_motherboard
         concept_motherboard;
 
     ->rrel_not_maximum_studied_object_class: 
+    	concept_manufactures_of_motherboard;
 	concept_motherboard_form_factor;
 	concept_motherboard_processor_socket;
 	concept_motherboard_memory_support;
@@ -19,6 +20,7 @@ subject_domain_of_motherboard
        
 
      =>nrel_private_subject_domain:
+     		subject_domain_of_manufactures_of_motherboard;
       		subject_domain_of_motherboard_form_factor;
 		subject_domain_of_motherboard_processor_socket;
 		subject_domain_of_motherboard_memory_support;

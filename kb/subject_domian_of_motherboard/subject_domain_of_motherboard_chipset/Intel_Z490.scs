@@ -1,0 +1,17 @@
+concept_Intel_Z490
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Intel_Z490] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Intel_Z490)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Intel Z490 - это чипсет для настольных компьютеров, выпущенный компанией Intel в 2020 году. Он является преемником чипсета Z390 и предназначен для использования с процессорами Intel Core 10-го поколения (Comet Lake-S).] (* <-lang_ru;; *);;
+				*);;
+		*);;

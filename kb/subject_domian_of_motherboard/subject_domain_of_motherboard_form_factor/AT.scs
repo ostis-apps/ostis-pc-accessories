@@ -1,0 +1,17 @@
+concept_AT
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[AT] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(AT)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Форм-фактор AT (Advanced Technology) является устаревшим стандартом для настольных компьютеров, который был разработан в 1984 году компанией IBM для своих персональных компьютеров PC/AT.] (* <-lang_ru;; *);;
+				*);;
+		*);;

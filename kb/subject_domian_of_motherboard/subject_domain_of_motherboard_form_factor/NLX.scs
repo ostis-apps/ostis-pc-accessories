@@ -1,0 +1,17 @@
+concept_NLX
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[NLX] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(NLX)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Форм-фактор NLX (New Low-profile eXtended) был разработан компанией Intel в 1997 году как усовершенствованный вариант форм-фактора LPX. Он был предназначен для создания компактных настольных компьютеров и работал на основе технологии Plug-and-Play.] (* <-lang_ru;; *);;
+				*);;
+		*);;

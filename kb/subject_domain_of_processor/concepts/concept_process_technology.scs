@@ -1,0 +1,25 @@
+concept_process_technology
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[concept_process_technology] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[техпроцесс] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(техпроцесс)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Техпроцесс (технологический процесс) - это набор технологий и методов, используемых в производстве полупроводниковых микросхем и других электронных компонентов. Он определяет размер и структуру элементов, таких как транзисторы, проводники и диэлектрики, на поверхности кристалла полупроводника.] (* <-lang_ru;; *);;
+                *);;
+        *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//tehprocess.jpg"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

@@ -1,0 +1,20 @@
+concept_memory_support
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[concept_memory_support;] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[поддержка памяти] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(поддержка памяти)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Поддержка памяти (Memory Support) - это способность компьютерной системы или процессора работать с определенным типом и конфигурацией оперативной памяти (ОЗУ).] (* <-lang_ru;; *);;
+                *);;
+        *);;

@@ -1,0 +1,20 @@
+concept_product_line
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[concept_product_line] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[модельный ряд] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(модельный ряд)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Модельный ряд - это набор различных моделей или версий продукта, выпускаемых производителем. Он представляет собой ассортимент продукции, доступной на рынке, отличающийся основными характеристиками, возможностями и ценами.] (* <-lang_ru;; *);;
+                *);;
+        *);;

@@ -1,0 +1,27 @@
+concept_socket
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[concept_socket] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[сокет] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Сокет)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Сокет - это механическое устройство, предназначенное для соединения двух или более компонентов или устройств. Он обычно имеет определенную форму, размеры и конфигурацию контактов, которые позволяют установить электрическое, электронное или механическое соединение.] (* <-lang_ru;; *);;
+                *);;
+        *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//Socet.jpg"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

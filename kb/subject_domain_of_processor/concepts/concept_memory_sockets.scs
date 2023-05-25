@@ -3,6 +3,9 @@ concept_memory_sockets
 	=> nrel_main_idtf: 
 		[Memory sockets] 
 			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[слоты памяти] 
+			(* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

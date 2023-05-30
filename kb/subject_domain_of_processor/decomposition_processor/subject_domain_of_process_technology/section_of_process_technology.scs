@@ -1,0 +1,55 @@
+
+subject_domain_of_process_technology
+    =>nrel_main_idtf:[Предметная область техпроцесс] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain process technology] (* <-lang_en;;*);
+	<-subject_domain; 
+	<-subject_domain_of_processor; 
+    ->rrel_maximum_studied_object_class:
+        concept_process_technology;
+    ->rrel_not_maximum_studied_object_class:
+        concept_45_nm;
+	concept_32_nm;
+	concept_22_nm;
+	concept_14_nm;
+	concept_10_nm;
+	concept_7_nm;
+	concept_5_nm;
+	concept_3_nm;;
+
+/*section_of_process_technology
+	=> nrel_main_idtf: 
+		[Process technology] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf:
+		[Раздел.Техпроцесс]
+			(* <- lang_ru;; *);;
+			
+section_of_process_technology	
+    -> rrel_key_sc_element:	
+        45_nm;
+	32_nm;
+	22_nm;
+	14_nm;
+	10_nm;
+	7_nm;
+	5_nm;
+	3_nm;;
+        
+section_of_process_technology
+	
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition:
+			
+			 [Опр.(Техпроцесс)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Техпроцесс процессора - это технология изготовления процессора, которая определяет размер элементов и количество транзисторов на кристалле процессора. Чем меньше техпроцесс, тем выше плотность транзисторов на кристалле и меньше его размеры. Это позволяет увеличивать производительность процессора и снижать энергопотребление.).] 
+		            (* <-lang_ru;;*);;
+				*);;
+		*);;       
+        
+        
+   */

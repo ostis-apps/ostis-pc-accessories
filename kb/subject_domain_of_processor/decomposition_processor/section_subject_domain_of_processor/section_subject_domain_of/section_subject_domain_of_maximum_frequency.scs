@@ -1,0 +1,5 @@
+section_subject_domain_of_maximum_frequency
+    =>nrel_main_idtf:[Раздел. Предметная область максимальная частота] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of maximum frequency] (* <-lang_en;;*);
+    <-atomic_section;
+    ->rrel_key_sc_element: subject_domain_of_maximum_frequency;;

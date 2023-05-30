@@ -1,0 +1,17 @@
+concept_120x120
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[120x120mm] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(120x120mm)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [120x120mm - размер вентилятора в милимметрах] (* <-lang_en;; *);;
+                *);;
+        *);;

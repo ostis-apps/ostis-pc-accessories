@@ -1,0 +1,16 @@
+concept_Crucial
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Crucial] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Crucial] (* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Crucial)] (* <-lang_ru;; *);;
+		    	<= nrel_sc_text_translation:
+				...
+				(* 
+		            		-> rrel_example: [ Crucial - это американская компания, которая специализируется на производстве компьютерной памяти и твердотельных накопителей (SSD), Crucial известна своими высококачественными продуктами. ] (* <-lang_ru;; *);;
+				*);;
+		*);;

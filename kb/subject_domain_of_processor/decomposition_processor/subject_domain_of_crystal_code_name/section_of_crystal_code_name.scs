@@ -1,0 +1,70 @@
+subject_domain_of_tipe_of_crystal_code_name
+    =>nrel_main_idtf:[Предметная область кодовое название кристалла] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of crystal code name] (* <-lang_en;;*);
+	<-subject_domain; 
+	<-subject_domain_of_processor; 
+    ->rrel_maximum_studied_object_class:
+        concept_crystal_code_name;
+    ->rrel_not_maximum_studied_object_class:
+    	concept_skylake;
+	concept_kaby_lake;
+	concept_coffee_lake;
+	concept_ice_lake;
+	concept_comet_lake;
+	concept_tiger_lake;
+	concept_alder_lake;
+	concept_bulldozer;
+	concept_piledriver;
+	concept_zen;
+	concept_ryzen;
+	concept_threadripper;
+	concept_epyc;;
+
+
+
+
+
+
+
+/*section_of_crystal_code_name
+	=> nrel_main_idtf: 
+		[Crystal code name] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf:
+		[Раздел. Кодовое название кристалла]
+			(* <- lang_ru;; *);;
+			
+section_of_crystal_code_name	
+    -> rrel_key_sc_element:	
+	Skylake;
+	Kaby_Lake;
+	Coffee_Lake;
+	Ice_Lake;
+	Comet_Lake;
+	Tiger_Lake;
+	Alder_Lake;
+	Bulldozer;
+	Piledriver;
+	Zen;
+	Ryzen;
+	Threadripper;
+	EPYC;;
+        
+section_of_crystal_code_name
+	
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition:
+			
+			 [Опр.(Кодовое название кристалла)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Кодовое название кристалла (Crystal code name) - это уникальное название, которое используется производителем процессора для идентификации определенной модели кристалла.).] 
+		            (* <-lang_ru;;*);;
+				*);;
+		*);;       
+        
+        
+   */

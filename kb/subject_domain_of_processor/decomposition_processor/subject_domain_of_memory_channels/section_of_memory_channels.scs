@@ -1,0 +1,48 @@
+
+subject_domain_of_memory_channels
+    =>nrel_main_idtf:[Предметная область количество каналов памяти] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain memory channels] (* <-lang_en;;*);
+	<-subject_domain; 
+	<-ssubject_domain_of_processor; 
+    ->rrel_maximum_studied_object_class:
+        concept_memory_support;
+    ->rrel_not_maximum_studied_object_class:
+        concept_single_channel;
+        concept_dual_channel;
+        concept_quad_channel;
+        concept_six_channel;;
+
+/*section_of_memory_channels
+	=> nrel_main_idtf: 
+		[Memory channels] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf:
+		[Раздел. Количество каналов памяти]
+			(* <- lang_ru;; *);;
+			
+section_of_memory_channels	
+    -> rrel_key_sc_element:	
+        single_channel;
+        dual_channel;
+        quad_channel;
+        six_channel;;
+        
+        
+section_of_memory_channels
+	
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition:
+			
+			 [Опр.(Количество каналов памяти)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Количество каналов памяти (Memory channels) - это количество независимых каналов, используемых процессором для обмена данными с оперативной памятью.).] 
+		            (* <-lang_ru;;*);;
+				*);;
+		*);;       
+        
+        
+   */

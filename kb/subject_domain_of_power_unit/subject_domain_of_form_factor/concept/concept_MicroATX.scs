@@ -1,0 +1,16 @@
+concept_MicroATX
+	<- sc_node_not_relation;	
+	=> nrel_main_idtf:[MicroATX] (* <-lang_en;; *);
+	=> nrel_main_idtf:[MicroATX] (* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(MicroATX)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [MicroATX - это уменьшенная версия ATX, которая обычно используется в более компактных настольных компьютерах. Размер MicroATX составляет примерно 150 мм x 75 мм x 140 мм.] (* <-lang_en;; *);;
+                *);;
+        *);;

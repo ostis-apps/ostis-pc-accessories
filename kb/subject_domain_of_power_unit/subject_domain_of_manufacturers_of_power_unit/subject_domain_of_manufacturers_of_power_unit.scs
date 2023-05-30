@@ -1,0 +1,16 @@
+subject_domain_of_manufacturers_of_power_unit
+    =>nrel_main_idtf:[Предметная область производители блока питания] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of manufactures of power unit] (* <-lang_en;;*);
+	<-subject_domain; 
+	<-subject_domain_of_power_unit; 
+    ->rrel_maximum_studied_object_class:
+        concept_manufacturer_of_power_unit;
+    ->rrel_not_maximum_studied_object_class:
+        concept_Corsair;
+        concept_Gigabyte;
+        concept_SeaSonic;
+        concept_Aerocool;
+        concept_Chieftec;
+        concept_Deepcool;
+        concept_Zalman;
+        concept_Cougar;;

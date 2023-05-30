@@ -1,0 +1,17 @@
+concept_IDE
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[IDE] 
+			(* <-lang_en;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(IDE)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Integrated Drive Electronics (IDE) - средняя скорость передачи данных для ATA/ATAPI-7 (последней версии) составляет 133 Мбайт/с.] (* <-lang_en;; *);;
+                *);;
+        *);;

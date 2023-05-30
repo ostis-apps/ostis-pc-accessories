@@ -1,0 +1,16 @@
+concept_8GB_of_RAM
+	<- sc_node_not_relation;			
+	=> nrel_main_idtf:[8GB] (* <-lang_en;; *);
+	=> nrel_main_idtf:[8GB] (* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(8GB)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [8GB - объём памяти в гигабайтах (единицы измерения памяти), 8GB = 8000MB] (* <-lang_en;; *);;
+                *);;
+        *);;

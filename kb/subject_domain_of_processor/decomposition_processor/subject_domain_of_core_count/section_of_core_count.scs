@@ -1,0 +1,45 @@
+subject_domain_of_tipe_of_core_count
+    =>nrel_main_idtf:[Предметная область количество ядер] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of core count] (* <-lang_en;;*);
+	<-subject_domain; 
+	<-subject_domain_of_processor; 
+    ->rrel_maximum_studied_object_class:
+        concept_tipe_of_core_count;
+    ->rrel_not_maximum_studied_object_class:
+        concept_hyper_threading;
+        concept_logical_cores;;
+        
+
+/*section_of_core_count
+	=> nrel_main_idtf: 
+		[Socket] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf:
+		[Раздел. Количество ядер]
+			(* <- lang_ru;; *);;
+			
+section_of_core_count	
+    -> rrel_key_sc_element:	
+    
+        Hyper_threading;
+        Logical_cores;;
+        
+        
+section_of_core_count
+	
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition:
+			
+			 [Опр.(Количество ядер)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Количество ядер процессора - это количество физических ядер, которые установлены на процессорной плате и могут работать параллельно. Каждый физический ядро может выполнять инструкции независимо от других ядер, что позволяет процессору обрабатывать несколько потоков одновременно и повышать производительность.).] 
+		            (* <-lang_ru;;*);;
+				*);;
+		*);;       
+        
+        
+   */

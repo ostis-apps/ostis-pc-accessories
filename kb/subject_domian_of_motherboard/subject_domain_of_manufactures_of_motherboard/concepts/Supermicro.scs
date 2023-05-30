@@ -1,9 +1,7 @@
 concept_Supermicro
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[Supermicro] 
-			(* <-lang_en;; *);
-
+	=> nrel_main_idtf:[Supermicro] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Supermicro] (* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*

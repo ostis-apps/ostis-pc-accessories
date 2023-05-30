@@ -1,9 +1,7 @@
 concept_AMD_X570
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[AMD_X570] 
-			(* <-lang_en;; *);
-
+	=> nrel_main_idtf:[AMD_X570] (* <-lang_en;; *);
+	=> nrel_main_idtf:[AMD_X570] (* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*

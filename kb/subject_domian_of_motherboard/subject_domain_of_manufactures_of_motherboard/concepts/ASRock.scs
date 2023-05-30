@@ -1,9 +1,7 @@
 concept_ASRock
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[ASRock] 
-			(* <-lang_en;; *);
-
+	=> nrel_main_idtf:[ASRock] (* <-lang_en;; *);
+	=> nrel_main_idtf:[ASRock] (* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*

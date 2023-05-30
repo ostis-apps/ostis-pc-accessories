@@ -1,9 +1,7 @@
 concept_Tyan
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[Tyan] 
-			(* <-lang_en;; *);
-
+	=> nrel_main_idtf:[Tyan] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Tyan] (* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*

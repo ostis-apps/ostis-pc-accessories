@@ -1,0 +1,25 @@
+nrel_chipset_motherboard
+    <- sc_node_norole_relation;
+    => nrel_system_idtf:[chipset of motherboard] (* <- lang_en;; *);
+    => nrel_idtf: [chipset of motherboard](*<- lang_en;;*);
+    => nrel_idtf: [чипсет материнских плат](*<- lang_ru;;*);
+    => nrel_main_idtf: [чипсет материнских плат](*<- lang_ru;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: nrel_chipset;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [неролевое бинарное отношение, связывающее чипсет и их материнскую плату.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Чипсет)](*<- lang_ru;;*);;
+*);;
+
+nrel_chipset_motherboard => nrel_first_domain: concept_motherboard_chipset;;
+nrel_chipset_motherboard => nrel_second_domain: concept_AMD_B550;;
+nrel_chipset_motherboard => nrel_second_domain: concept_AMD_X570;;
+nrel_chipset_motherboard => nrel_second_domain: concept_Intel_B460;;
+nrel_chipset_motherboard => nrel_second_domain: concept_Intel_Z490;;
+nrel_chipset_motherboard => nrel_second_domain: concept_Intel_Z590;;
+

@@ -1,9 +1,7 @@
 concept_ASUS
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[ASUS] 
-			(* <-lang_en;; *);
-
+	=> nrel_main_idtf:[ASUS] (* <-lang_en;; *);
+	=> nrel_main_idtf:[ASUS] (* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*

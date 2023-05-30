@@ -1,0 +1,14 @@
+concept_manufactures_of_motherboard
+ <- sc_node_not_relation;
+ => nrel_main_idtf:[Производители материнских плат] (* <-lang_ru;; *);
+ <-rrel_key_sc_element:
+  ...
+  (*
+   <- definition;;
+   => nrel_main_idtf: [Производители материнских плат] (* <-lang_ru;; *);;
+      <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Производители материнских плат - компании, которые предлагают различные модели с различными функциями и характеристиками.](*<-lang_ru;;*);;
+   *);;
+  *);;

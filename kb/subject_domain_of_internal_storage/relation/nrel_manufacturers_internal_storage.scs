@@ -1,0 +1,26 @@
+nrel_manufacturers_internal_storage
+    <- sc_node_norole_relation;
+    => nrel_system_idtf:[manufactures of internal storage] (* <- lang_en;; *);
+    => nrel_idtf: [manufactures of internal storage](*<- lang_en;;*);
+    => nrel_idtf: [производитель внутреннего накопителя](*<- lang_ru;;*);
+    => nrel_main_idtf: [производитель внутреннего накопителя](*<- lang_ru;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: nrel_manufacturers;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [неролевое бинарное отношение, связывающее производителей и их товар.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Производитель)](*<- lang_ru;;*);;
+*);;
+
+nrel_manufacturers_internal_storage => nrel_first_domain: concept_manufacturers_of_internal_storage;;
+nrel_manufacturers_internal_storage => nrel_second_domain: concept_Corsair;;
+nrel_manufacturers_internal_storage => nrel_second_domain: concept_Crucial;;
+nrel_manufacturers_internal_storage => nrel_second_domain: concept_Intel;;
+nrel_manufacturers_internal_storage => nrel_second_domain: concept_Kingston;;
+nrel_manufacturers_internal_storage => nrel_second_domain: concept_Seagate;;
+nrel_manufacturers_internal_storage => nrel_second_domain: concept_Toshiba;;
+nrel_manufacturers_internal_storage => nrel_second_domain: concept_Western_Digital;;

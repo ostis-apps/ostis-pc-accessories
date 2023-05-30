@@ -1,8 +1,7 @@
 concept_ATX
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[ATX] 
-			(* <-lang_en;; *);
+	=> nrel_main_idtf:[ATX] (* <-lang_en;; *);
+	=> nrel_main_idtf:[ATX] (* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

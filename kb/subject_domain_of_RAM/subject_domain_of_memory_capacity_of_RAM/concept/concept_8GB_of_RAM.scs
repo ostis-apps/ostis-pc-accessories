@@ -1,8 +1,7 @@
 concept_8GB_of_RAM
-	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[8GB] 
-			(* <-lang_en;; *);
+	<- sc_node_not_relation;			
+	=> nrel_main_idtf:[8GB] (* <-lang_en;; *);
+	=> nrel_main_idtf:[8GB] (* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

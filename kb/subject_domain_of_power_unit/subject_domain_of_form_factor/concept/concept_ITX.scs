@@ -1,8 +1,8 @@
 concept_ITX
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[ITX] 
-			(* <-lang_en;; *);
+	=> nrel_main_idtf:[ITX] (* <-lang_en;; *);
+	=> nrel_main_idtf:[ITX] (* <-lang_ru;; *);
+
 
 	<- rrel_key_sc_element:
 		...

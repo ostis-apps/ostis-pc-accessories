@@ -3,6 +3,9 @@ concept_piledriver
 	=> nrel_main_idtf: 
 		[piledriver] 
 			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[piledriver] 
+			(* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

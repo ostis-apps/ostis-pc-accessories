@@ -1,22 +1,21 @@
 concept_integrated_graphics
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[concept_integrated_graphics] 
+		[integrated graphics] 
 			(* <-lang_en;; *);
+	
 	=> nrel_main_idtf: 
 		[интегрированная графика] 
 			(* <-lang_ru;; *);
 
-	<- rrel_key_sc_element:
-		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(интегрированная графика)] (* <-lang_ru;; *);;
-		    <= nrel_sc_text_translation:
-                ...
-                (*
-                    -> rrel_example: [Интегрированная графика (Integrated Graphics) - это технология, при которой графический процессор (GPU) находится встроенным в саму материнскую плату компьютера, в отличие от отдельной дискретной графической карты.
+<= nrel_sc_text_translation:
+				"file://html/integr_videocard.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);        
 
-В случае интегрированной графики, графические возможности обрабатываются с помощью специального графического ядра, которое встроено в чипсет материнской платы или процессор. Это позволяет компьютеру выводить графику на монитор без необходимости использования отдельной графической карты.] (* <-lang_ru;; *);;
-                *);;
-        *);;
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//integr_videocard.png"  (*  => nrel_format: format_png;;  *);;
+    *);;
+ 		*);; 

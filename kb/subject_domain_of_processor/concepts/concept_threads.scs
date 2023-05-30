@@ -1,7 +1,7 @@
 concept_threads
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[concept_threads] 
+		[threads] 
 			(* <-lang_en;; *);
 	=> nrel_main_idtf: 
 		[потоки] 

@@ -1,7 +1,7 @@
 concept_base_clock_frequency
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[concept_base_clock_frequency] 
+		[base clock frequency] 
 			(* <-lang_en;; *);
 	=> nrel_main_idtf: 
 		[базовая тактовая частота] 

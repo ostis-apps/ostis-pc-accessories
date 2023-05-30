@@ -1,8 +1,11 @@
 concept_10_nm
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[10_nm] 
+		[10 nm] 
 			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[10 нм] 
+			(* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

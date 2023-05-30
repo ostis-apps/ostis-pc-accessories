@@ -1,7 +1,7 @@
 concept_hyper_threading
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[concept_hyper_threading] 
+		[hyper threading] 
 			(* <-lang_en;; *);
 	=> nrel_main_idtf: 
 		[гиперпоточность] 

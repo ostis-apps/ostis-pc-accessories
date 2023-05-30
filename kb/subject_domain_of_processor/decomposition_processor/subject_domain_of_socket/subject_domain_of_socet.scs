@@ -9,7 +9,9 @@ subject_domain_of_socket
     ->rrel_not_maximum_studied_object_class:
 	concept_sockets_for_connecting_processors_to_networks;
 	concept_sockets_for_connecting_peripherals;
-	concept_memory_sockets;;
+	concept_memory_sockets;
+    ->nrel_conection_to_net:
+    	concept_sockets_for_connecting_processors_to_networks;;
 
 /*section_of_socket
 	=> nrel_main_idtf: 

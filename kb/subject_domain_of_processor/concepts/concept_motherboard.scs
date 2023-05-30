@@ -6,6 +6,7 @@ concept_motherboard
 	=> nrel_main_idtf: 
 		[материнская плата] 
 			(* <-lang_ru;; *);
+	=> nrel_location;
 
 	<- rrel_key_sc_element:
 		...
@@ -23,6 +24,6 @@ concept_motherboard
 
  <- rrel_key_sc_element: ... (*
         <- illustration;;
-        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//matherboard.jpeg"  (*  => nrel_format: format_jpeg;;  *);;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//matherboard.jpg"  (*  => nrel_format: format_jpg;;  *);;
     *);;
  		*);; 

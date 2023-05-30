@@ -1,7 +1,7 @@
  concept_logical_core
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[ concept_logical_core] 
+		[logical core] 
 			(* <-lang_en;; *);
 	=> nrel_main_idtf: 
 		[ логическое ядро] 

@@ -1,7 +1,12 @@
 subject_domain_of_motherboard
 => nrel_main_idtf:
-	[Материнская плата]
+	[Предметная область материнских плат]
 	(* <- lang_ru;; *);
+	<-subject_domain; 
+	<-subject_domain_of_pc_knowledge_base; 
+  ->rrel_maximum_studied_object_class:
+	concept_motherboard;
+
 
 <- not_enough_formed_structure;
 

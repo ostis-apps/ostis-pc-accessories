@@ -1,7 +1,7 @@
 concept_process_technology
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[concept_process_technology] 
+		[process technology] 
 			(* <-lang_en;; *);
 	=> nrel_main_idtf: 
 		[техпроцесс] 

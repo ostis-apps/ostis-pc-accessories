@@ -2,6 +2,7 @@ concept_AMD
 	<- sc_node_not_relation;
 	=> nrel_main_idtf:[AMD] (* <-lang_en;; *);
 	=> nrel_main_idtf:[AMD] (* <-lang_ru;; *);
+	=> nrel_manufacturers_pc_acc;
 	<- rrel_key_sc_element:
 	
 		...

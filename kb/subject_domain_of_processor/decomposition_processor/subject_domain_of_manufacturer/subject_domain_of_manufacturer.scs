@@ -8,4 +8,5 @@ subject_domain_of_manufacturer
     ->rrel_not_maximum_studied_object_class:
         concept_AMD;
         concept_Intel;
+        concept_qualcomm_snapdragon;
         concept_apple;;

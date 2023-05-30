@@ -1,7 +1,7 @@
 concept_memory_support
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[concept_memory_support;] 
+		[memory support;] 
 			(* <-lang_en;; *);
 	=> nrel_main_idtf: 
 		[поддержка памяти] 

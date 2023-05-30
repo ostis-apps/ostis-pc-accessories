@@ -1,5 +1,5 @@
 subject_domain_of_pc_knowledge_base
-    =>nrel_main_idtf:[Предметная область комплектующие ПК] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Предметная область комплектующих ПК] (* <-lang_ru;;*);
     =>nrel_main_idtf:[Subject domain of ps accessories] (* <-lang_en;;*);
     
     <-subject_domain;
@@ -24,7 +24,6 @@ subject_domain_of_pc_knowledge_base
         subject_domain_of_internal_storage;  
 
     ->rrel_explored_relation:
-        nral_power;
-        nrel_price;
-        nrel_garant;
-        nrel_compatible;;
+	nrel_manufacturers_pc_acc;
+	nrel_location;;
+ 

@@ -6,15 +6,15 @@ concept_tipe_of_core_count
 	=> nrel_main_idtf: 
 		[классификация по количеству ядер] 
 			(* <-lang_ru;; *);
+			
+<= nrel_sc_text_translation:
+				"file://html/core_count.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);        
 
-	<- rrel_key_sc_element:
-		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(DDR4)] (* <-lang_ru;; *);;
-		    <= nrel_sc_text_translation:
-                ...
-                (*
-                    -> rrel_example: [Классификация по количеству ядер - это классификация, которая указывает на количество физических ядер, присутствующих в процессоре или центральном процессорном устройстве (ЦПУ).] (* <-lang_ru;; *);;
-                *);;
-        *);;
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//core_count.png"  (*  => nrel_format: format_png;;  *);;
+    *);;
+ 		*);; 

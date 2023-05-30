@@ -1,7 +1,7 @@
 concept_maximum_frequency
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[concept_maximum_frequency] 
+		[maximum frequency] 
 			(* <-lang_en;; *);
 	=> nrel_main_idtf: 
 		[максимальная тактовая частота] 

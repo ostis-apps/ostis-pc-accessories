@@ -3,7 +3,9 @@ concept_5_nm
 	=> nrel_main_idtf: 
 		[5 nm] 
 			(* <-lang_en;; *);
-
+	=> nrel_main_idtf: 
+		[5 нм] 
+			(* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*

@@ -6,15 +6,16 @@ concept_manufacturer_of_processor
 	=> nrel_main_idtf: 
 		[производители процессоров] 
 			(* <-lang_ru;; *);
+	=> nrel_pc_manufacturers;
 
-	<- rrel_key_sc_element:
-		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(производители процессоров)] (* <-lang_ru;; *);;
-		    <= nrel_sc_text_translation:
-                ...
-                (*
-                    -> rrel_example: [Производитель процессоров - это компания, занимающаяся разработкой, производством и продажей процессоров - центральных вычислительных устройств, которые выполняют операции и контролируют работу компьютерных систем и других электронных устройств. Процессоры играют ключевую роль в обработке данных, выполнении инструкций и управлении ресурсами компьютера.] (* <-lang_ru;; *);;
-                *);;
-        *);;
+<= nrel_sc_text_translation:
+				"file://html/manuf_proc.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);        
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//man_proc.png"  (*  => nrel_format: format_png;;  *);;
+    *);;
+ 		*);; 

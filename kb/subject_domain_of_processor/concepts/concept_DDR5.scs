@@ -1,7 +1,7 @@
 concept_DDR5
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[concept_DDR5;] 
+		[DDR5] 
 			(* <-lang_en;; *);
 	=> nrel_main_idtf: 
 		[DDR5] 

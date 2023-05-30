@@ -1,8 +1,11 @@
 concept_intel_core_i9
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[intel_core_i9] 
+		[intel core i9] 
 			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[intel core i9] 
+			(* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

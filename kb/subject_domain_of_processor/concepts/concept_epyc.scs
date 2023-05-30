@@ -3,7 +3,9 @@ concept_epyc
 	=> nrel_main_idtf: 
 		[epyc] 
 			(* <-lang_en;; *);
-
+	=> nrel_main_idtf: 
+		[epyc] 
+			(* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*

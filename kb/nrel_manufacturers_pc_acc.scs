@@ -1,0 +1,28 @@
+nrel_manufacturers_pc_acc
+    <- sc_node_norole_relation;
+    => nrel_system_idtf:[manufacturers pc acc] (* <- lang_en;; *);
+    => nrel_idtf: [nrel_manufacturers_pc_acc](*<- lang_en;;*);
+    => nrel_idtf: [производители компьютерных комплектующих](*<- lang_ru;;*);
+    => nrel_main_idtf: [производители компьютерных комплектующих](*<- lang_ru;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: nrel_manufacturers_pc_acc;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Неролевое бинарное отношение, связывающее производителей, которые заниаются преимущественной разработкой комплектующих для ПК.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(производители компьютерных комплектующих)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*	
+		->concept_AMD;;
+		->concept_Intel;;
+		->concept_manufacturer_of_processor;;
+		
+        *);;
+*);;
+
+nrel_manufacturers_pc_acc => nrel_first_domain: concept_manufacturer_of_processor;;
+nrel_manufacturers_pc_acc => nrel_second_domain: concept_AMD;;
+nrel_manufacturers_pc_acc => nrel_second_domain: concept_Intel;;

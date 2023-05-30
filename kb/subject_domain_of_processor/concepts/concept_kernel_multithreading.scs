@@ -1,7 +1,7 @@
 concept_kernel_multithreading
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[concept_kernel_multithreading] 
+		[kernel multithreading] 
 			(* <-lang_en;; *);
 	=> nrel_main_idtf: 
 		[многопоточность ядра] 

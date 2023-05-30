@@ -3,6 +3,9 @@ concept_threadripper
 	=> nrel_main_idtf: 
 		[threadripper] 
 			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[threadripper] 
+			(* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

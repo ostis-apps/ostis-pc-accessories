@@ -1,8 +1,11 @@
 concept_apple_m1
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[apple_m1] 
+		[apple m1] 
 			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[apple m1] 
+			(* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

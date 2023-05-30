@@ -1,0 +1,21 @@
+concept_integrated_graphics
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[integrated graphics] 
+			(* <-lang_en;; *);
+	
+	=> nrel_main_idtf: 
+		[интегрированная графика] 
+			(* <-lang_ru;; *);
+
+<= nrel_sc_text_translation:
+				"file://html/integr_videocard.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);        
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//integr_videocard.png"  (*  => nrel_format: format_png;;  *);;
+    *);;
+ 		*);; 

@@ -3,6 +3,9 @@ concept_alder_lake
 	=> nrel_main_idtf: 
 		[alder lake] 
 			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[alder lake] 
+			(* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

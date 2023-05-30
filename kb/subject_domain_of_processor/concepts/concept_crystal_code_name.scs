@@ -1,0 +1,20 @@
+concept_crystal_code_name
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[crystal code name] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[кодовое название кристалла] 
+			(* <-lang_ru;; *);
+
+<= nrel_sc_text_translation:
+				"file://html/crystall_code_name.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);        
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//crystall_code_name.png"  (*  => nrel_format: format_png;;  *);;
+    *);;
+ 		*);; 

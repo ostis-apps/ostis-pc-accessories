@@ -3,6 +3,9 @@ concept_amd_ryzen_3
 	=> nrel_main_idtf: 
 		[amd ryzen 3] 
 			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[amd ryzen 3] 
+			(* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

@@ -3,6 +3,9 @@ concept_zen
 	=> nrel_main_idtf: 
 		[zen] 
 			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[zen] 
+			(* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

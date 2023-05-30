@@ -1,8 +1,7 @@
 concept_Kingston
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[Kingston] 
-			(* <-lang_en;; *);
+	=> nrel_main_idtf:[Kingston] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Kingston] (* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

@@ -1,8 +1,7 @@
 concept_Toshiba
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[Toshiba] 
-			(* <-lang_en;; *);
+	=> nrel_main_idtf:[Toshiba] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Toshiba] (* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

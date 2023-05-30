@@ -1,8 +1,7 @@
 concept_Western_Digital
-	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[Western_Digital] 
-			(* <-lang_en;; *);
+	<- sc_node_not_relation;			
+	=> nrel_main_idtf:[Western Digital] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Western Digital] (* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

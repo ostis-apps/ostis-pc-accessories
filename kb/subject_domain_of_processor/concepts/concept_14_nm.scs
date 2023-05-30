@@ -1,9 +1,11 @@
 concept_14_nm
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[14_nm] 
+		[14 nm] 
 			(* <-lang_en;; *);
-
+	=> nrel_main_idtf: 
+		[14 нм] 
+			(* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*

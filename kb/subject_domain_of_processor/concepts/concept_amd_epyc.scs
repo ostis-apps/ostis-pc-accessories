@@ -3,6 +3,9 @@ concept_amd_epyc
 	=> nrel_main_idtf: 
 		[amd epyc] 
 			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[amd epyc] 
+			(* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

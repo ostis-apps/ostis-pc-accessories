@@ -1,8 +1,12 @@
 concept_amd_ryzen_5
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[amd_ryzen_5] 
+		[amd ryzen 5] 
 			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[amd ryzen 5] 
+			(* <-lang_ru;; *);
+	
 
 	<- rrel_key_sc_element:
 		...

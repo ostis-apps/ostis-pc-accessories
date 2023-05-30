@@ -3,6 +3,9 @@ concept_bulldozer
 	=> nrel_main_idtf: 
 		[bulldozer] 
 			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[bulldozer] 
+			(* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...

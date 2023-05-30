@@ -1,5 +1,5 @@
 subject_domain_of_manufacturer 
-    =>nrel_main_idtf:[Предметная область производители процессоров] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Предметная область производителей процессоров] (* <-lang_ru;;*);
     =>nrel_main_idtf:[Subject domain manufacturer of processor] (* <-lang_en;;*);
 	<-subject_domain; 
 	<-subject_domain_of_processor; 
@@ -7,4 +7,6 @@ subject_domain_of_manufacturer
         concept_manufacturer_of_processor;
     ->rrel_not_maximum_studied_object_class:
         concept_AMD;
-        concept_Intel;;
+        concept_Intel;
+        concept_qualcomm_snapdragon;
+        concept_apple;;

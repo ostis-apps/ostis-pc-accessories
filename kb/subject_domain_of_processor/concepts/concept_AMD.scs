@@ -1,0 +1,25 @@
+concept_AMD
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[AMD] (* <-lang_en;; *);
+	=> nrel_main_idtf:[AMD] (* <-lang_ru;; *);
+	=> nrel_manufacturers_pc_acc;
+	<- rrel_key_sc_element:
+	
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(AMD)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [AMD (Advanced Micro Devices) является американской компанией, которая специализируется на производстве процессоров, графических карт, системных наборов и других компьютерных компонентов. Она является одним из главных конкурентов Intel в области процессоров для персональных компьютеров, а также NVIDIA в области графических карт. Кроме того, AMD также занимается разработкой и производством процессоров для серверов, игровых консолей и других устройств.] (* <-lang_ru;; *);;
+				*);;
+				
+	*);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//concept_AMD.jpg"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

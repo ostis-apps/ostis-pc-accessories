@@ -1,14 +1,17 @@
 concept_qualcomm_snapdragon
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[qualcomm_snapdragon] 
+		[Qualcomm Snapdragon] 
 			(* <-lang_en;; *);
+		=> nrel_main_idtf: 
+		[Qualcomm Snapdragon] 
+			(* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...
 		(*
 			<- definition;;
-			=> nrel_main_idtf: [Опр.(qualcomm_snapdragon)] (* <-lang_ru;; *);;
+			=> nrel_main_idtf: [Опр.(Qualcomm Snapdragon)] (* <-lang_ru;; *);;
 		    <= nrel_sc_text_translation:
                 ...
                 (*

@@ -1,9 +1,14 @@
 concept_sockets_for_connecting_processors_to_networks
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[sockets_for_connecting_processors_to_networks] 
+		[sockets for connecting processors to networks] 
 			(* <-lang_en;; *);
-
+	=> nrel_main_idtf: 
+		[разъемы для подключения процессоров к сетям] 
+			(* <-lang_ru;; *);
+	
+	<- nrel_conection_to_net;
+	
 	<- rrel_key_sc_element:
 		...
 		(*
@@ -14,4 +19,10 @@ concept_sockets_for_connecting_processors_to_networks
                 (*
                     -> rrel_example: [Разъемы для подключения процессоров к сетям - это разъемы на компьютере или сервере, предназначенные для подключения к сети. Они позволяют процессорам компьютера или сервера обмениваться данными с другими компьютерами или устройствами в сети, а также получать доступ к Интернету.] (* <-lang_ru;; *);;
                 *);;
-        *);;
+        *);
+        
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//socets_peref.png"  (*  => nrel_format: format_png;;  *);;
+    *);;
+ 		*);; 

@@ -1,0 +1,20 @@
+concept_tipe_of_core_count
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[tipe of core count] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[классификация по количеству ядер] 
+			(* <-lang_ru;; *);
+			
+<= nrel_sc_text_translation:
+				"file://html/core_count.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);        
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//core_count.png"  (*  => nrel_format: format_png;;  *);;
+    *);;
+ 		*);; 

@@ -3,6 +3,10 @@ concept_ryzen
 	=> nrel_main_idtf: 
 		[ryzen] 
 			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[ryzen] 
+			(* <-lang_ru;; *);
+	
 
 	<- rrel_key_sc_element:
 		...

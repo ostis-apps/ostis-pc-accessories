@@ -1,1 +1,11 @@
-concept_video_card_cooling
+subject_domain_of_video_card_cooling
+    =>nrel_main_idtf:[Предметная область охлаждения видеоварты] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of video card cooling] (* <-lang_en;;*);
+    ->rrel_maximum_studied_object_class:
+        concept_video_card_cooling;
+    ->rrel_not_maximum_studied_object_class:
+        concept_pasiv;
+        concept_activ;
+        concept_water;
+        concept_gibrid;
+        concept_water_block;;

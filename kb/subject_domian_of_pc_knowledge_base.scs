@@ -26,5 +26,7 @@ subject_domain_of_pc_knowledge_base
     ->rrel_explored_relation:
         nral_power;
         nrel_price;
+        nrel_accessories;
+        nrel_manufactures;
         nrel_garant;
         nrel_compatible;;

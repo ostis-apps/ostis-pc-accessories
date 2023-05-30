@@ -1,1 +1,21 @@
 concept_video_card_cooling
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Охлаждение видеокарты] (* <-lang_ru;; *);
+	<-rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Охлаждение видеокарты] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Охлаждение - важный фактор, который следует учитывать при покупке новой видеокарты. Это связано с тем, что для видеокарт доступны разные типы кулеров, и у каждого из них есть свои плюсы и минусы. Графические карты выполняют много тяжелой работы по обработке графики, и при этом она может сильно нагреваться.](*<-lang_ru;;*);;
+			*);;
+		*);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://concept/pictures/cooling.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

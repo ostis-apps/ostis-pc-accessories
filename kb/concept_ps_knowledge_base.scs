@@ -1,0 +1,17 @@
+concept_ps_knowledge_base
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[PS knowledge base] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Комплектующие ПК] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+	
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Комплектующие ПК)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Комплектующие для ПК — это установленные в некоторую коробку (корпус) и зафиксированные с помощью винтов элементы компьютера.] (* <-lang_ru;; *);;
+				*);;
+				
+	*);;

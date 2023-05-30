@@ -3,7 +3,18 @@ concept_Intel
 	=> nrel_main_idtf:[Intel] (* <-lang_ru;; *);
 	=> nrel_main_idtf:[Intel] (* <-lang_en;; *);
 	<= nrel_sc_text_translation:
-				"file://html/index.html" (*
+				"file://html/Intel.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
-                            *);;
+                            *);
+	
+ 	<- rrel_key_sc_element:
+	...
+	(*
+    	    <- illustration;;
+        	<= nrel_sc_text_translation: 
+				... 
+				(*   
+					-> rrel_example: "file://Picturies//Intel.png"  (*  => nrel_format: format_jpg;;  *);;
+				*);;
+ 		*);; 

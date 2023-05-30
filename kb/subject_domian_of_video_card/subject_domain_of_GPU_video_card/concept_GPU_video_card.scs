@@ -1,0 +1,20 @@
+concept_GPU_video_card
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Графический процессор видеокарты] (* <-lang_ru;; *);
+	<-rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Графический процессор видеокарты] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Графический процессор (GPU) — небольшой полупроводник на видеокарте. Внешне он похож на центральный процессор (CPU), но его архитектура отлична от архитектуры CPU: В GPU содержатся несколько сотен вычислительных ядер, с помощью которых сложные расчеты выполняются очень быстро.](*<-lang_ru;;*);;
+			*);;
+		*);
+
+<- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://pictures/GPU.png"  (*  => nrel_format: format_jpg;;  *);;    
+    *);;
+ 		*);; 

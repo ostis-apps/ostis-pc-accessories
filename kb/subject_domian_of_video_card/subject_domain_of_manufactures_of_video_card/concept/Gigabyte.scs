@@ -2,14 +2,18 @@ concept_Gigabyte
 	<- sc_node_not_relation;
 	=> nrel_main_idtf:[Gigabyte] (* <-lang_ru;; *);
 	=> nrel_main_idtf:[Gigabyte] (* <-lang_en;; *);
-	<- rrel_key_sc_element:
-		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(Gigabyte)] (* <-lang_ru;; *);;
-		    <= nrel_sc_text_translation:
-				...
-				(* 
-		            -> rrel_example: [Gigabyte Technology Co., Ltd. - это тайваньская компания, занимающаяся производством компьютерных компонентов, включая материнские платы, видеокарты, ноутбуки, планшеты, серверы и другие устройства. Компания была основана в 1986 году и на сегодняшний день является одним из крупнейших производителей материнских плат в мире. Gigabyte также известна своими высокопроизводительными игровыми компонентами и инновационными технологиями, такими как система охлаждения Windforce, которая обеспечивает более эффективное охлаждение для видеокарт и других компонентов. Компания также производит различное периферийное оборудование, такое как мыши, клавиатуры, наушники и другие аксессуары для компьютеров и игровых устройств.] (* <-lang_ru;; *);;
+	<= nrel_sc_text_translation:
+				"file://html/Gigabyte.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
+	...
+	(*
+    	    <- illustration;;
+        	<= nrel_sc_text_translation: 
+				... 
+				(*   
+					-> rrel_example: "file://Picturies//Gigabyte.png"  (*  => nrel_format: format_jpg;;  *);;
 				*);;
-		*);;
+ 		*);;

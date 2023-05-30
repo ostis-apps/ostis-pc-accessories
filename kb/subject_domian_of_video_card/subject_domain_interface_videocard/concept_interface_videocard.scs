@@ -1,0 +1,14 @@
+concept_domain_interface_videocard
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Интерфейс видеокарты] (* <-lang_ru;; *);
+	<-rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Интерфейс видеокарт] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Слот, с помощью которого компьютер и видеокарта обмениваются информацией](*<-lang_ru;;*);;
+			*);;
+		*);;

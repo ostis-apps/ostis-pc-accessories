@@ -1,0 +1,6 @@
+concept_RTX_4090
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[RTX_4090](* <-lang_en;; *);
+	=> nrel_main_idtf:[RTX_4090](* <-lang_ru;; *);
+	=> nrel_manufactures_videocard: concept_Nvidia;;
+	

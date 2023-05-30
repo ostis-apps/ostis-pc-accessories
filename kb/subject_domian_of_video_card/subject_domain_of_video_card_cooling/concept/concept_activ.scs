@@ -1,0 +1,24 @@
+concept_activ
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Activ cooling] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Активное охлаждение] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+	
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Активное охлаждение)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Это наиболее широко используемое решение для охлаждения, используемое для большинства видеокарт. При активном охлаждении для охлаждения видеокарты используется вентилятор с радиатором, и эта комбинация известна как HSF или вентилятор радиатора.] (* <-lang_ru;; *);;
+				*);;
+				
+	*);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://pictures/activ.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

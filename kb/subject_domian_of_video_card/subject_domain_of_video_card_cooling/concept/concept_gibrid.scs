@@ -1,0 +1,24 @@
+concept_gibrid
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Gibrid cooling] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Гибридное охлаждение] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+	
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Гибридное охлаждение)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Гибридное охлаждение - это форма водяного охлаждения, при которой графический процессор охлаждается водяным/жидкостным охладителем, а другие компоненты, такие как видеопамять и VRM, активно охлаждаются с помощью радиатора и блока вентилятора. ] (* <-lang_ru;; *);;
+				*);;
+				
+	*);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://pictures/gibrid.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

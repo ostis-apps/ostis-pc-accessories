@@ -1,14 +1,10 @@
 concept_Colorful
 	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Colorful] (* <-lang_ru;; *);
 	=> nrel_main_idtf:[Colorful] (* <-lang_en;; *);
-	<- rrel_key_sc_element:
-		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(Colorful)] (* <-lang_ru;; *);;
-		    <= nrel_sc_text_translation:
-				...
-				(* 
-		            -> rrel_example: [Colorful (колорфул) - это китайский производитель компьютерных компонентов, включая видеокарты, материнские платы, оперативную память, накопители и другие устройства. Компания была основана в 1995 году и на сегодняшний день занимает значительную долю на рынке компьютерных компонентов в Китае. В последние годы Colorful также начала расширять свою деятельность на международном рынке, увеличивая свою популярность среди пользователей благодаря своим инновационным продуктам и доступным ценам.] (* <-lang_ru;; *);;
-				*);;
-		*);;
+	<= nrel_sc_text_translation:
+				"file://html/Colorful.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);;
+							

@@ -1,0 +1,9 @@
+concept_accessories
+    <-sc_node_not_relation;
+    =>nrel_main_idtf:[комплектующее](*<-lang_ru;;*);
+    =>nrel_main_idtf:[accessories](*<-lang_en;;*);
+    ->rrel_key_sc_element:...(*
+        <-definition;;
+        => nrel_idtf: [Опр. (комплектующее)] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (* -> rrel_example: [рецепт - часть ПК.] (* <-lang_ru;; *);;   *);;
+    *);;

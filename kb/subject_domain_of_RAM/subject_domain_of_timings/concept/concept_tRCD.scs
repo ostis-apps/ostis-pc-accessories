@@ -1,9 +1,7 @@
 concept_tRCD
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[tRCD] 
-			(* <-lang_en;; *);
-
+	=> nrel_main_idtf:[tRCD] (* <-lang_en;; *);
+	=> nrel_main_idtf:[tRCD] (* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*
@@ -12,6 +10,6 @@ concept_tRCD
 		    <= nrel_sc_text_translation:
                 ...
                 (*
-                    -> rrel_example: [RAS to CAS Delay (tRCD) - задержка между активацией строки и началом чтения столбца.] (* <-lang_en;; *);;
+                    -> rrel_example: [RAS to CAS Delay (tRCD) - задержка между активацией строки и началом чтения столбца.] (* <-lang_ru;; *);;
                 *);;
         *);;

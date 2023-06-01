@@ -1,9 +1,7 @@
 concept_tRAS
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[tRAS] 
-			(* <-lang_en;; *);
-
+	=> nrel_main_idtf:[tRAS] (* <-lang_en;; *);
+	=> nrel_main_idtf:[tRAS] (* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*
@@ -12,6 +10,6 @@ concept_tRAS
 		    <= nrel_sc_text_translation:
                 ...
                 (*
-                    -> rrel_example: [Row Active Time (tRAS) - время, в течение которого строка остается активной, прежде чем ее можно будет закрыть.] (* <-lang_en;; *);;
+                    -> rrel_example: [Row Active Time (tRAS) - время, в течение которого строка остается активной, прежде чем ее можно будет закрыть.] (* <-lang_ru;; *);;
                 *);;
         *);;

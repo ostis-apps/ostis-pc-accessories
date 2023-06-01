@@ -1,9 +1,7 @@
 concept_reading_speed_500MB
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[500MB] 
-			(* <-lang_en;; *);
-
+	=> nrel_main_idtf:[500MB] (* <-lang_en;; *);
+	=> nrel_main_idtf:[500MB] (* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*
@@ -12,6 +10,6 @@ concept_reading_speed_500MB
 		    <= nrel_sc_text_translation:
                 ...
                 (*
-                    -> rrel_example: [500MB - объём памяти в террабайтах (единицы измерения памяти)] (* <-lang_en;; *);;
+                    -> rrel_example: [500MB - объём памяти в террабайтах (единицы измерения памяти)] (* <-lang_ru;; *);;
                 *);;
         *);;

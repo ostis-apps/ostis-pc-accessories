@@ -1,9 +1,7 @@
 concept_DDR
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[DDR] 
-			(* <-lang_en;; *);
-
+	=> nrel_main_idtf:[DDR] (* <-lang_en;; *);
+	=> nrel_main_idtf:[DDR] (* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*
@@ -12,6 +10,13 @@ concept_DDR
 		    <= nrel_sc_text_translation:
                 ...
                 (*
-                    -> rrel_example: [DDR (Double Data Rate) - это наиболее распространенный тип памяти, который работает с передачей данных на фронте и спаде тактового сигнала. DDR память имеет несколько подтипов: DDR1, DDR2, DDR3, DDR4.] (* <-lang_en;; *);;
+                    -> rrel_example: [DDR (Double Data Rate) - это наиболее распространенный тип памяти, который работает с передачей данных на фронте и спаде тактового сигнала. DDR память имеет несколько подтипов: DDR1, DDR2, DDR3, DDR4.] (* <-lang_ru;; *);;
                 *);;
-        *);;
+        *);
+        
+        
+                        <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Pictures//DDR.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

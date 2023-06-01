@@ -1,0 +1,15 @@
+concept_750BT
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[750BT] (* <-lang_en;; *);
+	=> nrel_main_idtf:[750BT] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(750BT)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [750BT - показывает, сколько электрической энергии блок питания может обеспечить компонентам компьютера. Это измеряется в ваттах (Вт).] (* <-lang_ru;; *);;
+                *);;
+        *);;

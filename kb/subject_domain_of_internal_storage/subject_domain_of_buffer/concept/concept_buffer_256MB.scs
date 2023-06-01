@@ -1,8 +1,7 @@
 concept_buffer_256MB
-	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[256MB] 
-			(* <-lang_en;; *);
+	<- sc_node_not_relation;			
+	=> nrel_main_idtf:[256MB] (* <-lang_en;; *);
+	=> nrel_main_idtf:[256MB] (* <-lang_ru;; *);
 
 	<- rrel_key_sc_element:
 		...
@@ -12,6 +11,6 @@ concept_buffer_256MB
 		    <= nrel_sc_text_translation:
                 ...
                 (*
-                    -> rrel_example: [256MB - объём памяти в мегабайтах (единицы измерения памяти)] (* <-lang_en;; *);;
+                    -> rrel_example: [256MB - объём памяти в мегабайтах (единицы измерения памяти)] (* <-lang_ru;; *);;
                 *);;
         *);;

@@ -2,15 +2,15 @@ concept_Seagate
 	<- sc_node_not_relation;
 	=> nrel_main_idtf:[Seagate] (* <-lang_en;; *);
 	=> nrel_main_idtf:[Seagate] (* <-lang_ru;; *);
-
-	<- rrel_key_sc_element:
-		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(Seagate)] (* <-lang_ru;; *);;
-		    	<= nrel_sc_text_translation:
-				...
-				(* 
-		            		-> rrel_example: [ Seagate - это американская компания, которая занимается производством компьютерных накопителей, таких как внешние и внутренние жесткие диски (HDD) и твердотельные накопители (SSD). ] (* <-lang_ru;; *);;
-				*);;
-		*);;
+	
+		<= nrel_sc_text_translation:
+				"file://html/Seagate.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+		
+		         <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Pictures//Seagate.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

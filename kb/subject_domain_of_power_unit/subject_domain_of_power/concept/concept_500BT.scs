@@ -1,0 +1,15 @@
+concept_500BT
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[500BT] (* <-lang_en;; *);
+	=> nrel_main_idtf:[500BT] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(500BT)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [500BT - показывает, сколько электрической энергии блок питания может обеспечить компонентам компьютера. Это измеряется в ваттах (Вт).] (* <-lang_ru;; *);;
+                *);;
+        *);;

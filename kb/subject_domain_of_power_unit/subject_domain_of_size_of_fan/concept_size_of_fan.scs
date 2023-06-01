@@ -1,4 +1,4 @@
-concept_size_of_fan
+concept_power_unit_size_of_fan
 	<- sc_node_not_relation;
 	=> nrel_main_idtf:[Размер вентилятора блока питания] (* <-lang_ru;; *);
 	<-rrel_key_sc_element:

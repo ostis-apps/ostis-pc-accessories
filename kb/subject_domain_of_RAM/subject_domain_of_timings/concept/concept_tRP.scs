@@ -1,9 +1,7 @@
 concept_tRP
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[tRP] 
-			(* <-lang_en;; *);
-
+	=> nrel_main_idtf:[tRP] (* <-lang_en;; *);
+	=> nrel_main_idtf:[tRP] (* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*
@@ -12,6 +10,6 @@ concept_tRP
 		    <= nrel_sc_text_translation:
                 ...
                 (*
-                    -> rrel_example: [RAS Precharge Time (tRP) - время, необходимое для отключения текущей строки и активации следующей.] (* <-lang_en;; *);;
+                    -> rrel_example: [RAS Precharge Time (tRP) - время, необходимое для отключения текущей строки и активации следующей.] (* <-lang_ru;; *);;
                 *);;
         *);;

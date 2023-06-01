@@ -1,9 +1,7 @@
 concept_reading_speed_3GB
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[3GB] 
-			(* <-lang_en;; *);
-
+	=> nrel_main_idtf:[3GB] (* <-lang_en;; *);
+	=> nrel_main_idtf:[3GB] (* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*
@@ -12,6 +10,6 @@ concept_reading_speed_3GB
 		    <= nrel_sc_text_translation:
                 ...
                 (*
-                    -> rrel_example: [3GB - объём памяти в террабайтах (единицы измерения памяти), 3GB = 3000MB] (* <-lang_en;; *);;
+                    -> rrel_example: [3GB - объём памяти в террабайтах (единицы измерения памяти), 3GB = 3000MB] (* <-lang_ru;; *);;
                 *);;
         *);;

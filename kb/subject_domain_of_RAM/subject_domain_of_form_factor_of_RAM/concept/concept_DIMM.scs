@@ -1,9 +1,7 @@
 concept_DIMM
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[DIMM] 
-			(* <-lang_en;; *);
-
+	=> nrel_main_idtf:[DIMM] (* <-lang_en;; *);
+	=> nrel_main_idtf:[DIMM] (* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*
@@ -12,6 +10,12 @@ concept_DIMM
 		    <= nrel_sc_text_translation:
                 ...
                 (*
-                    -> rrel_example: [DIMM (Dual Inline Memory Module) - наиболее распространенный форм-фактор оперативной памяти. DIMM-модули используются в настольных компьютерах и серверах.] (* <-lang_en;; *);;
+                    -> rrel_example: [DIMM (Dual Inline Memory Module) - наиболее распространенный форм-фактор оперативной памяти. DIMM-модули используются в настольных компьютерах и серверах.] (* <-lang_ru;; *);;
                 *);;
-        *);;
+        *);
+        
+        <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Pictures//DIMM_microDIMM.jpg"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

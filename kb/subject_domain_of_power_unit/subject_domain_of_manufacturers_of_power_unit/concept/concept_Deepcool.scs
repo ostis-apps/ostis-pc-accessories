@@ -1,17 +1,18 @@
 concept_Deepcool
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[Deepcool] 
-			(* <-lang_en;; *);
-
-	<- rrel_key_sc_element:
-		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(Deepcool)] (* <-lang_ru;; *);;
-		    	<= nrel_sc_text_translation:
-				...
-				(* 
-		            		-> rrel_example: [Deepcool - это китайская компания, специализирующаяся на производстве компьютерных компонентов и периферийных устройств, таких как корпуса, охлаждение, блоки питания, вентиляторы, клавиатуры и мыши. Компания известна своим инновационным подходом и качественной продукцией, а также она является одним из крупнейших производителей компьютерных компонентов в мире.] (* <-lang_ru;; *);;
-				*);;
-		*);;
+	=> nrel_main_idtf:[Deepcool] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Deepcool] (* <-lang_ru;; *);
+	
+	
+		<= nrel_sc_text_translation:
+				"file://html/Deepcool.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+		
+		
+				<- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Pictures//Deepcool.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

@@ -3,14 +3,14 @@ concept_Corsair
 	=> nrel_main_idtf:[Corsair] (* <-lang_en;; *);
 	=> nrel_main_idtf:[Corsair] (* <-lang_ru;; *);
 
-	<- rrel_key_sc_element:
-		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(Corsair)] (* <-lang_ru;; *);;
-		    	<= nrel_sc_text_translation:
-				...
-				(* 
-		            		-> rrel_example: [Corsair - это американская компания, которая специализируется на производстве высококачественных компьютерных компонентов и периферийных устройств, таких как оперативная память, блоки питания, корпуса, охлаждение, клавиатуры, мыши и наушники.] (* <-lang_ru;; *);;
-				*);;
-		*);;
+	<= nrel_sc_text_translation:
+				"file://html/Corsair.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+		
+		         <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Pictures//corsair.jpg"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

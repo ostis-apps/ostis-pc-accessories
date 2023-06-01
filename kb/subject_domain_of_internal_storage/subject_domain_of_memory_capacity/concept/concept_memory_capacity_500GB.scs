@@ -1,0 +1,21 @@
+concept_memory_capacity_500GB
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[500GB] (* <-lang_en;; *);
+	=> nrel_main_idtf:[500GB] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(500GB)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [500GB - объём памяти в террабайтах (единицы измерения памяти), 500GB - 500 000MB] (* <-lang_ru;; *);;
+                *);;
+        *);
+        
+                 <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Pictures//500GB.jpg"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

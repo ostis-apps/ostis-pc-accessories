@@ -1,0 +1,24 @@
+concept_pasiv
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Pasiv cooling] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Пассивное охлаждение] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+	
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Пассивное охлаждение)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [Пассивное охлаждение - это самый простой и основной тип охлаждения, используемый в видеокартах. При таком охлаждении только радиатор используется для охлаждения графического процессора и других компонентов, включая видеопамять и VRM] (* <-lang_ru;; *);;
+				*);;
+				
+	*);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://pictures/passiv.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

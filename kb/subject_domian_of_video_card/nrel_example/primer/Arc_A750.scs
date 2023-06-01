@@ -1,0 +1,11 @@
+concept_Arc_A750
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Arc_A750](* <-lang_en;; *);
+	=> nrel_main_idtf:[Arc_A750](* <-lang_ru;; *);
+	=> nrel_manufactures_videocard: concept_Intel;
+	=> nrel_videocard_cooling: concept_activ;
+	=> nrel_GPU_frequency: 2050Mg;
+	=> nrel_interface_videocard: concept_PCIE4;
+	=> nrel_videocard_memory_size: 8GB;
+	=> nrel_videocard_type_memory: concept_GDDR6;
+	=> nrel_tire_widht_memory: 256bit;;

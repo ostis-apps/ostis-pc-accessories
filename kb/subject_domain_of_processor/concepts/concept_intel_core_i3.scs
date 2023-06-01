@@ -1,0 +1,20 @@
+concept_intel_core_i3
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[intel core i3] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[intel core i3] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(intel_core_i3)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Intel Core i3 - это семейство процессоров, разработанных компанией Intel для использования в настольных и мобильных компьютерах. Процессоры Core i3 предназначены для выполнения базовых задач, таких как офисные приложения, просмотр веб-страниц, прослушивание музыки и просмотр видео.] (* <-lang_ru;; *);;
+                *);;
+        *);;

@@ -1,0 +1,16 @@
+concept_2133MHz
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[2133MHz] (* <-lang_en;; *);
+	=> nrel_main_idtf:[2133MHz] (* <-lang_ru;; *);
+	<= nrel_sc_text_translation:
+				"file://html/2133MHz.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
+		...
+ (*
+		             <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//2133MHz.jpeg"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

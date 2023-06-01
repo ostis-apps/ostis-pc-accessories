@@ -1,0 +1,18 @@
+nrel_GPU_frequency
+    <- sc_node_norole_relation;
+    => nrel_system_idtf:[GPU frequency] (* <- lang_en;; *);
+    => nrel_idtf: [GPU frequency](*<- lang_en;;*);
+    => nrel_idtf: [Частота графического процессора](*<- lang_ru;;*);
+    => nrel_main_idtf: [Частота графического процессора](*<- lang_ru;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: nrel_GPU_frequency;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [неролевое бинарное отношение, связывающее частоту графического процессора с их значением](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Частота графического процессора)](*<- lang_ru;;*);;
+*);;
+

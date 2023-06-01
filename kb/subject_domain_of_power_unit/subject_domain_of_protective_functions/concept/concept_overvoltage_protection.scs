@@ -1,0 +1,15 @@
+concept_overvoltage_protection
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Overvoltage protection] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Защита от перенапряжения] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Защита от перенапряжения)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Защита от перенапряжения - это функция, которая предотвращает повреждение компонентов блока питания и других компонентов компьютера при внезапном увеличении напряжения на входе блока питания.] (* <-lang_ru;; *);;
+                *);;
+        *);;

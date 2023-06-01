@@ -1,0 +1,15 @@
+concept_short_circuit_protection
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Circuit protection] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Защита от короткого замыкания] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Защита от короткого замыкания)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Защита от короткого замыкания - это функция, которая предотвращает повреждение компонентов блока питания и других компонентов компьютера при обнаружении короткого замыкания на выходе блока питания.] (* <-lang_ru;; *);;
+                *);;
+        *);;

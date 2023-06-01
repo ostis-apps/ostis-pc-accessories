@@ -1,0 +1,30 @@
+nrel_manufactures_motherboard
+    <- sc_node_norole_relation;
+    => nrel_system_idtf:[manufactures of motherboard] (* <- lang_en;; *);
+    => nrel_idtf: [manufactures of motherboard](*<- lang_en;;*);
+    => nrel_idtf: [производитель материнских плат](*<- lang_ru;;*);
+    => nrel_main_idtf: [производитель материнских плат](*<- lang_ru;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: nrel_manufacturers;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [неролевое бинарное отношение, связывающее производителей и их товар.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Производитель)](*<- lang_ru;;*);;
+*);;
+
+nrel_manufactures_motherboard => nrel_first_domain: concept_manufactures_of_motherboard;;
+nrel_manufactures_motherboard => nrel_second_domain: concept_AMD;;
+nrel_manufactures_motherboard => nrel_second_domain: concept_ASRock;;
+nrel_manufactures_motherboard => nrel_second_domain: concept_ASUS;;
+nrel_manufactures_motherboard => nrel_second_domain: concept_Biostar;;
+nrel_manufactures_motherboard => nrel_second_domain: concept_Dell;;
+nrel_manufactures_motherboard => nrel_second_domain: concept_Gigabyte;;
+nrel_manufactures_motherboard => nrel_second_domain: concept_Intel;;
+nrel_manufactures_motherboard => nrel_second_domain: concept_MSI;;
+nrel_manufactures_motherboard => nrel_second_domain: concept_Supermicro;;
+nrel_manufactures_motherboard => nrel_second_domain: concept_Tyan;;
+

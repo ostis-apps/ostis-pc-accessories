@@ -1,0 +1,5 @@
+section_subject_domain_of_memory_capacity
+    =>nrel_main_idtf:[Раздел. Предметная область размер памяти] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of memory capacity] (* <-lang_en;;*);
+    <-atomic_section;
+    ->rrel_key_sc_element: subject_domain_of_memory_capacity;;

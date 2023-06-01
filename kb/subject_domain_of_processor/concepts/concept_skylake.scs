@@ -1,0 +1,20 @@
+concept_skylake
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[skylake] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[skylake] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Skylake)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Skylake - это кодовое название шестого поколения процессоров Intel Core, выпущенных в 2015 году. Эти процессоры были произведены на 14-нанометровом техпроцессе и предназначены для использования в настольных и мобильных компьютерах.] (* <-lang_ru;; *);;
+                *);;
+        *);;

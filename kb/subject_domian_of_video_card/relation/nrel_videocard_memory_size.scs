@@ -1,0 +1,18 @@
+nrel_videocard_memory_size
+    <- sc_node_norole_relation;
+    => nrel_system_idtf:[videocard memory size] (* <- lang_en;; *);
+    => nrel_idtf: [videocard memory size](*<- lang_en;;*);
+    => nrel_idtf: [Объём памяти видеокарты](*<- lang_ru;;*);
+    => nrel_main_idtf: [Объём памяти видеокарты](*<- lang_ru;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: nrel_videocard_memory_size;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [неролевое бинарное отношение, связывающее видмокарту с объёмом её памяти.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Объём памяти видеокарты)](*<- lang_ru;;*);;
+*);;
+

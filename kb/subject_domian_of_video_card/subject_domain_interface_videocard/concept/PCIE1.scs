@@ -1,0 +1,16 @@
+concept_PCIE1
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[PCIE1] (* <-lang_en;; *);
+	=> nrel_main_idtf:[PCIE1] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+	
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(PCIE1)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+				...
+				(* 
+		            -> rrel_example: [PCI (англ. Peripheral component interconnect «взаимосвязь периферийных компонентов») — шина ввода-вывода для подключения периферийных устройств к материнской плате компьютера.] (* <-lang_ru;; *);;
+				*);;				
+	*);;

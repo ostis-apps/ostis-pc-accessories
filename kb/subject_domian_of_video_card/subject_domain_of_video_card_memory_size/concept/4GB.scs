@@ -1,0 +1,16 @@
+concept_4GB
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: [4GB] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [4GB] (* <-lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(4GB)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [4GB - объём памяти в гигабайтах (единицы измерения памяти), 1GB == 1000MB] (* <-lang_en;; *);;
+                *);;
+        *);;
+

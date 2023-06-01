@@ -1,0 +1,17 @@
+nrel_example_vidiocart
+    =>nrel_main_idtf:[Примеры видиокарт] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Example video card] (* <-lang_en;;*);
+    ->rrel_not_maximum_studied_object_class:
+    	concept_RTX_4090;
+    	concept_RTX_4080;
+    	concept_RTX_4070;
+    	concept_RTX_4060;
+    	concept_Arc_A750;
+    	concept_Arc_A380;
+    	concept_RX_6750XT;
+    	concept_RX_7900XT;
+    	concept_RTX_3090;
+    	concept_RTX_3070;
+    	concept_RTX_3050;
+    	concept_RTX_3080;
+    	concept_RTX_3060;;

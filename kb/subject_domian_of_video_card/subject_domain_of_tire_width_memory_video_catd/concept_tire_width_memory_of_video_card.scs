@@ -1,0 +1,14 @@
+concept_tire_width_memory_of_video_card
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Ширина шины памяти видеокарты] (* <-lang_ru;; *);
+	<-rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Ширина шины памяти видеокарты] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Ширина шины памяти видеокарты - это характеристика, которая указывает на количество битов, которые могут быть переданы между видеокартой и ее памятью за один такт. ](*<-lang_ru;;*);;
+			*);;
+		*);;

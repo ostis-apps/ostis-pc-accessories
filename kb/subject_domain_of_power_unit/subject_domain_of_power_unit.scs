@@ -2,26 +2,19 @@ subject_domain_of_power_unit
     =>nrel_main_idtf:[Предметная область блок питания] (* <-lang_ru;;*);
     =>nrel_main_idtf:[Subject domain of power unit] (* <-lang_en;;*);
 
-	<-subject_domain; 
-	<-subject_domain_of_pc_knowledge_base; 
-
     ->rrel_maximum_studied_object_class:
         concept_power_unit;
 
     ->rrel_not_maximum_studied_object_class:         
-        concept_Corsair;
-        concept_Gigabyte;
-        concept_SeaSonic;
-        concept_Aerocool;
-        concept_Chieftec;
-        concept_Deepcool;
-        concept_Zalman;
-        concept_Cougar;
+		concept_manufacturers_of_power_unit;
+		concept_power;
+		concept_power_unit_size_of_fan;
+		concept_protective_functions;
+		concept_form_factor;
 
      =>nrel_private_subject_domain:		
 		subject_domain_of_manufacturers_of_power_unit;
 		subject_domain_of_power;
-		subject_domain_of_fan;
+		subject_domain_of_size_of_fan;
 		subject_domain_of_protective_functions;
-		subject_domain_of_form_factor;
-		subject_domain_of_example_of_power_unit;;
+		subject_domain_of_form_factor;;

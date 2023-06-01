@@ -4,10 +4,10 @@ section_subject_domain_of_power_unit
     <-atomic_section;
     ->rrel_key_sc_element: subject_domain_of_power_unit;
     =>nrel_section_decomposition:{		
-		subject_domain_of_manufacturers_of_power_unit;
-		subject_domain_of_power;
-		subject_domain_of_fan;
-		subject_domain_of_protective_functions;
-		subject_domain_of_form_factor;
+		section_subject_domain_of_manufacturers_of_power_unit;
+		section_subject_domain_of_power;
+		section_subject_domain_of_size_of_fan;
+		section_subject_domain_of_protective_functions;
+		section_subject_domain_of_form_factor;
 		subject_domain_of_example_of_power_unit
     };;

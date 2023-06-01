@@ -1,9 +1,8 @@
 
 subject_domain_of_product_line
-    =>nrel_main_idtf:[Предметная область модельный ряд] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Предметная область модельного ряда] (* <-lang_ru;;*);
     =>nrel_main_idtf:[Subject domain product line] (* <-lang_en;;*);
-	<-subject_domain; 
-	<-subject_domain_of_processor; 
+	
     ->rrel_maximum_studied_object_class:
         concept_product_line;
     ->rrel_not_maximum_studied_object_class:
@@ -15,9 +14,6 @@ subject_domain_of_product_line
 	concept_amd_ryzen_5;
 	concept_amd_ryzen_7;
 	concept_amd_ryzen_9;
-	concept_intel_xeon_e3;
-	concept_intel_xeon_e5;
-	concept_intel_xeon_e7;
 	concept_amd_epyc;
 	concept_qualcomm_snapdragon;
 	concept_apple_m1;;

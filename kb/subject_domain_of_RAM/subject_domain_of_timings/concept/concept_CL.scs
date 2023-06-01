@@ -1,0 +1,15 @@
+concept_CL
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[CL] (* <-lang_en;; *);
+	=> nrel_main_idtf:[CL] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(CL)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [CAS Latency (CL) - количество тактовых циклов между отправкой команды на чтение и получением первого байта данных.] (* <-lang_ru;; *);;
+                *);;
+        *);;

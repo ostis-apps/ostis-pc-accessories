@@ -1,0 +1,14 @@
+concept_tipe_of_video_card_memory
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Тип памяти видеокарты] (* <-lang_ru;; *);
+	<-rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Тип памяти видеокарты] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Тип памяти видеокарты - это характеристика видеокарты, которая определяет, какой тип памяти используется для хранения и быстрого доступа к графическим данным.](*<-lang_ru;;*);;
+			*);;
+		*);;

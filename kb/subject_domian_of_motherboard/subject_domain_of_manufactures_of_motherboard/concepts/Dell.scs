@@ -1,0 +1,16 @@
+concept_Dell
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Dell] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Dell] (* <-lang_ru;; *);
+	<= nrel_sc_text_translation:
+				"file://html/Dell.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
+		...
+ (*
+		             <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//Dell.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

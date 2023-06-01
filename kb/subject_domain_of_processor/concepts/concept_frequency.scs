@@ -1,0 +1,20 @@
+concept_frequency
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[frequency] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[частота] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Частота)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Частота - это мера числа повторений или колебаний события за единицу времени. В физике и математике частота обычно измеряется в герцах (Гц), что означает число циклов или повторений в секунду.] (* <-lang_ru;; *);;
+                *);;
+        *);;

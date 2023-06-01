@@ -1,0 +1,16 @@
+concept_Intel_Z590
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Intel_Z590] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Intel_Z590] (* <-lang_ru;; *);
+	<= nrel_sc_text_translation:
+				"file://html/Intel_Z590.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
+		...
+ (*
+		             <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//Intel_Z590.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

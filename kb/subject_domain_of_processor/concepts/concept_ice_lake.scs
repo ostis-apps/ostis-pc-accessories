@@ -1,0 +1,20 @@
+concept_ice_lake
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[ice lake] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[ice lake] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(ice_lake)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Ice Lake - это кодовое название для десятого поколения процессоров Intel Core, выпущенных в 2019 году. Эти процессоры были произведены на 10-нанометровом техпроцессе и предназначены для использования в ноутбуках и гибридных устройствах.] (* <-lang_ru;; *);;
+                *);;
+        *);;

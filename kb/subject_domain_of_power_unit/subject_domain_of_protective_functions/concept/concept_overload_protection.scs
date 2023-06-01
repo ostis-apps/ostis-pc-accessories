@@ -1,0 +1,15 @@
+concept_overload_protection
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Overload protection] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Защита от перегрузки] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Защита от перегрузки)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Защита от перегрузки - это функция, которая предотвращает перегрузку блока питания и других компонентов компьютера при подключении слишком большой нагрузки или при работе компонентов вне допустимых параметров.] (* <-lang_ru;; *);;
+                *);;
+        *);;

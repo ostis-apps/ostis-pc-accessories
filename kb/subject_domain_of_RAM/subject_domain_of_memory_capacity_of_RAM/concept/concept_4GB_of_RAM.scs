@@ -1,0 +1,22 @@
+concept_4GB_of_RAM
+	<- sc_node_not_relation;			
+	=> nrel_main_idtf:[4GB] (* <-lang_en;; *);
+	=> nrel_main_idtf:[4GB] (* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(4GB)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [4GB - объём памяти в гигабайтах (единицы измерения памяти), 4GB = 4000MB] (* <-lang_ru;; *);;
+                *);;
+        *);
+        
+                <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Pictures//4GB.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

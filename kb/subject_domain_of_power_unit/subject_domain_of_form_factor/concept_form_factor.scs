@@ -1,0 +1,14 @@
+concept_form_factor
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Форм-фактор блока питания] (* <-lang_ru;; *);
+	<-rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Форм-фактор блока питания] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Форм-фактор блока питания - стандартный размер и конфигурация, определяющие его совместимость с компьютерным корпусом.](*<-lang_ru;;*);;
+			*);;
+		*);;

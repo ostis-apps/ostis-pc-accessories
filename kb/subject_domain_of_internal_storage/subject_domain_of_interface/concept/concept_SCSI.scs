@@ -1,0 +1,21 @@
+concept_SCSI
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[SATA] (* <-lang_en;; *);
+	=> nrel_main_idtf:[SATA] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(SCSI)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Small Computer System Interface (SCSI) - скорость передачи данных зависит от поколения интерфейса и может варьироваться от 5 Мбайт/с до 320 Мбайт/с.] (* <-lang_ru;; *);;
+                *);;
+        *);
+        
+                 <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Pictures//SCSI.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

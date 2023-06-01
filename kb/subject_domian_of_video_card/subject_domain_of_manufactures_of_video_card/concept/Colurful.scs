@@ -1,0 +1,10 @@
+concept_Colorful
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Colorful] (* <-lang_ru;; *);
+	=> nrel_main_idtf:[Colorful] (* <-lang_en;; *);
+	<= nrel_sc_text_translation:
+				"file://html/Colorful.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);;
+							

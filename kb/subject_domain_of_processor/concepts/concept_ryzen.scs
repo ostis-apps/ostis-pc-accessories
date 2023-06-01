@@ -1,0 +1,21 @@
+concept_ryzen
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[ryzen] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[ryzen] 
+			(* <-lang_ru;; *);
+	
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(ryzen)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Ryzen - это семейство процессоров, разработанных компанией AMD для использования в настольных и мобильных компьютерах. Процессоры Ryzen были выпущены в 2017 году и представляют собой серьезного конкурента для процессоров Intel Core.] (* <-lang_ru;; *);;
+                *);;
+        *);;

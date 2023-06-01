@@ -1,0 +1,20 @@
+concept_amd_epyc
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[amd epyc] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[amd epyc] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(amd epyc)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [AMD EPYC - это линейка процессоров, разработанных компанией AMD для использования в серверах и высокопроизводительных вычислительных системах. Процессоры AMD EPYC основаны на архитектуре Zen и изготавливаются с использованием технологии 7 нм.] (* <-lang_ru;; *);;
+                *);;
+        *);;

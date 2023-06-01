@@ -1,0 +1,20 @@
+concept_alder_lake
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[alder lake] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[alder lake] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(alder_lake)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Alder Lake - это кодовое название для одного из процессоров Intel, который был выпущен в ноябре 2021 года. Этот процессор использует новую архитектуру Intel, называемую "Intel 12th Gen Core", и производится с использованием технологии 10 нм SuperFin.] (* <-lang_ru;; *);;
+                *);;
+        *);;

@@ -1,0 +1,16 @@
+concept_AMD_B550
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[AMD_B550] (* <-lang_en;; *);
+	=> nrel_main_idtf:[AMD_B550] (* <-lang_ru;; *);
+	<= nrel_sc_text_translation:
+				"file://html/AMD_B550.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
+		...
+ (*
+		             <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//AMD_B550.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

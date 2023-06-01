@@ -1,0 +1,21 @@
+concept_PCIE
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[PCIe] (* <-lang_en;; *);
+	=> nrel_main_idtf:[PCIe] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(PCIe)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Peripheral Component Interconnect Express (PCIe) - скорость передачи данных может варьироваться в зависимости от поколения интерфейса и количества линий, которые используются. Например, для PCIe 3.0 x4 средняя скорость передачи данных составляет 3,94 Гбайт/с.] (* <-lang_ru;; *);;
+                *);;
+        *);
+        
+                 <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Pictures//PCIe.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

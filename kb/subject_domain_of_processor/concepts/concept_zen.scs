@@ -1,0 +1,20 @@
+concept_zen
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[zen] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[zen] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(zen)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Zen - это микроархитектура процессоров, разработанная компанией AMD. Она была выпущена в 2017 году и представляет собой основу для серии процессоров Ryzen и Threadripper. Архитектура Zen обеспечивает высокую производительность и многопоточность при относительно низком энергопотреблении.] (* <-lang_ru;; *);;
+                *);;
+        *);;

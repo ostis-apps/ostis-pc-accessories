@@ -1,0 +1,22 @@
+concept_amd_ryzen_3
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[amd ryzen 3] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[amd ryzen 3] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(amd ryzen 3)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [AMD Ryzen 3 - это линейка процессоров, разработанных компанией AMD для настольных компьютеров. Они основаны на архитектуре Zen 2 или Zen 3 и изготавливаются с использованием технологии 7 нм.
+
+Процессоры AMD Ryzen 3 предназначены для использования в бюджетных настольных компьютерах, но они все еще предлагают высокую производительность и поддерживают многопоточность.] (* <-lang_ru;; *);;
+                *);;
+        *);;

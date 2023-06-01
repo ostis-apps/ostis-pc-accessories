@@ -1,0 +1,16 @@
+concept_ASRock
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[ASRock] (* <-lang_en;; *);
+	=> nrel_main_idtf:[ASRock] (* <-lang_ru;; *);
+	<= nrel_sc_text_translation:
+				"file://html/ASRock.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
+		...
+ (*
+		             <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//ASRock.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

@@ -1,0 +1,22 @@
+concept_amd_ryzen_7
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[amd ryzen 7] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[amd ryzen 7] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(amd_ryzen_7)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [AMD Ryzen 7 - это линейка процессоров, разработанных компанией AMD для настольных компьютеров. Они основаны на архитектуре Zen или Zen 2 и изготавливаются с использованием технологии 7 нм.
+
+Процессоры AMD Ryzen 7 предназначены для использования в высокопроизводительных настольных компьютерах и предлагают высокую производительность.] (* <-lang_ru;; *);;
+                *);;
+        *);;

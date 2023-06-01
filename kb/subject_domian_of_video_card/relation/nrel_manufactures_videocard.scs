@@ -1,0 +1,28 @@
+nrel_manufactures_videocard
+    <- sc_node_norole_relation;
+    => nrel_system_idtf:[manufactures of videocard] (* <- lang_en;; *);
+    => nrel_idtf: [manufactures of videocard](*<- lang_en;;*);
+    => nrel_idtf: [производитель видеокарт](*<- lang_ru;;*);
+    => nrel_main_idtf: [производитель видеокарт](*<- lang_ru;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: nrel_manufactures;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [неролевое бинарное отношение, связывающее производителей и их товар.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Производитель)](*<- lang_ru;;*);;
+*);;
+
+nrel_manufactures_videocard => nrel_first_domain: concept_manufactur_of_video_card;;
+nrel_manufactures_videocard => nrel_second_domain: concept_Nvidia;;
+nrel_manufactures_videocard => nrel_second_domain: concept_AMD;;
+nrel_manufactures_videocard => nrel_second_domain: concept_ASUS;;
+nrel_manufactures_videocard => nrel_second_domain: concept_Colorful;;
+nrel_manufactures_videocard => nrel_second_domain: concept_Gigabyte;;
+nrel_manufactures_videocard => nrel_second_domain: concept_Intel;;
+nrel_manufactures_videocard => nrel_second_domain: concept_MSI;;
+nrel_manufactures_videocard => nrel_second_domain: concept_ZOTAC;;
+

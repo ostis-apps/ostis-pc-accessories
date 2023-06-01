@@ -1,0 +1,27 @@
+concept_sockets_for_connecting_peripherals
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[sockets for connecting peripherals] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[разъемы для подключения периферийных устройств] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(Разъемы для подключения периферийных устройств)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Разъемы для подключения периферийных устройств - это разъемы на компьютере или ноутбуке, предназначенные для подключения периферийных устройств. Они позволяют подключать внешние устройства, такие как мыши, клавиатуры, принтеры, сканеры, веб-камеры и т.д., для расширения функциональности компьютера и обмена данными.] (* <-lang_ru;; *);;
+                *);;
+        *);
+        
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//socets_peref.png"  (*  => nrel_format: format_png;;  *);;
+    *);;
+ 		*);; 

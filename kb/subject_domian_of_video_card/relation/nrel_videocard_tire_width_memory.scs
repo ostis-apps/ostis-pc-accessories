@@ -1,0 +1,17 @@
+nrel_tire_widht_memory
+    <- sc_node_norole_relation;
+    => nrel_system_idtf:[tire widht memory videocard] (* <- lang_en;; *);
+    => nrel_idtf: [tire widht memory videocard](*<- lang_en;;*);
+    => nrel_idtf: [Ширина шины памяти видеокарты](*<- lang_ru;;*);
+    => nrel_main_idtf: [Ширина шины памяти видеокарты](*<- lang_ru;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element:nrel_tire_widht_memory;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [неролевое бинарное отношение, связывающее видмокарту с её ширина шины памяти.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Ширина шины памяти)](*<- lang_ru;;*);;
+*);;

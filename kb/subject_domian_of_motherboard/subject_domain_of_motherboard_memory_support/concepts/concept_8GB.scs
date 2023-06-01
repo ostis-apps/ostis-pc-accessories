@@ -1,0 +1,16 @@
+concept_8GB
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[8GB] (* <-lang_en;; *);
+	=> nrel_main_idtf:[8GB] (* <-lang_ru;; *);
+	<= nrel_sc_text_translation:
+				"file://html/8GB.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
+		...
+ (*
+		             <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//8GB.jpeg"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

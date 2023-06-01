@@ -1,0 +1,22 @@
+nrel_memory_capacity_of_RAM
+    <- sc_node_norole_relation;
+    => nrel_system_idtf:[memory capasity of RAM] (* <- lang_en;; *);
+    => nrel_idtf: [memory capasity of RAM](*<- lang_en;;*);
+    => nrel_idtf: [объем оперативной памяти](*<- lang_ru;;*);
+    => nrel_main_idtf: [объем оперативной памяти](*<- lang_ru;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: nrel_memory_capacity;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [неролевое бинарное отношение, связывающее объем памяти и оперативную память.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Объем памяти)](*<- lang_ru;;*);;
+*);;
+
+nrel_memory_capacity_of_RAM => nrel_first_domain: concept_memory_capacity_of_RAM;;
+nrel_memory_capacity_of_RAM => nrel_second_domain: concept_4GB_of_RAM;;
+nrel_memory_capacity_of_RAM => nrel_second_domain: concept_8GB_of_RAM;;
+nrel_memory_capacity_of_RAM => nrel_second_domain: concept_16GB_of_RAM;;

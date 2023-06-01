@@ -1,0 +1,14 @@
+concept_power_unit_size_of_fan
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[Размер вентилятора блока питания] (* <-lang_ru;; *);
+	<-rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Размер вентилятора блока питания] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Размер вентилятора блока питания - физический размер вентилятора, измеряемый в миллиметрах, который влияет на его производительность охлаждения и уровень шума.](*<-lang_ru;;*);;
+			*);;
+		*);;

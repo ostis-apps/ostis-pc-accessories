@@ -1,0 +1,20 @@
+concept_kaby_lake
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[kaby lake] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[kaby lake] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(kaby_lake)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Kaby Lake - это кодовое название седьмого поколения процессоров Intel Core, выпущенных в 2017 году. Эти процессоры были произведены на 14-нанометровом техпроцессе и предназначены для использования в настольных и мобильных компьютерах.] (* <-lang_ru;; *);;
+                *);;
+        *);;

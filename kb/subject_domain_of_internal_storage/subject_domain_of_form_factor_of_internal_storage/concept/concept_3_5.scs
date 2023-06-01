@@ -1,0 +1,21 @@
+concept_3_5
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[3.5"] (* <-lang_en;; *);
+	=> nrel_main_idtf:[3.5"] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(3.5")] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [3.5" -дюймовый форм-фактор (3.5"): используется для жестких дисков малой емкости, но высокой скорости вращения, а также для большинства ноутбучных жестких дисков.] (* <-lang_ru;; *);;
+                *);;
+        *);
+        
+                 <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Pictures//form-factor.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

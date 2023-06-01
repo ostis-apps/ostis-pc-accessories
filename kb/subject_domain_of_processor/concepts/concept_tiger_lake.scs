@@ -1,0 +1,20 @@
+concept_tiger_lake
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[tiger lake] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[tiger lake] 
+			(* <-lang_ru;; *);
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(tiger_lake)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Tiger Lake - это линейка процессоров компании Intel, выпущенная в 2020 году. Они построены на базе улучшенной архитектуры Intel Core и изготавливаются по 10-нм технологии.] (* <-lang_ru;; *);;
+                *);;
+        *);;

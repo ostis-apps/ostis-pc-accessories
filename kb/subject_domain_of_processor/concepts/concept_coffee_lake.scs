@@ -1,0 +1,19 @@
+concept_coffee_lake
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[coffee lake] 
+			(* <-lang_en;; *);
+	=> nrel_main_idtf: 
+		[coffee lake] 
+			(* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(coffee_lake)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [Coffee Lake - это кодовое название для восьмого поколения процессоров Intel Core i3, i5 и i7 для настольных компьютеров. Эти процессоры были выпущены в 2017 году и производились на 14-нанометровом техпроцессе.] (* <-lang_ru;; *);;
+                *);;
+        *);;

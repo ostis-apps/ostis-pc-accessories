@@ -1,0 +1,23 @@
+concept_ITX
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[ITX] (* <-lang_en;; *);
+	=> nrel_main_idtf:[ITX] (* <-lang_ru;; *);
+
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(ITX)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [ITX (Information Technology eXtended) - это еще более компактный форм-фактор, который используется в мини-компьютерах и устройствах с ограниченным пространством. Существует несколько размеров ITX, включая Mini-ITX (170 мм x 170 мм) и Nano-ITX (120 мм x 120 мм).] (* <-lang_ru;; *);;
+                *);;
+        *);
+        
+                                 <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Pictures//ATX_SFX.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

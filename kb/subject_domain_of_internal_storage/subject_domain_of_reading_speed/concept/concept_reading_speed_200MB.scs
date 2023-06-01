@@ -1,0 +1,15 @@
+concept_reading_speed_200MB
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[200MB] (* <-lang_en;; *);
+	=> nrel_main_idtf:[200MB] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(200MB)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [200MB - объём памяти в террабайтах (единицы измерения памяти)] (* <-lang_ru;; *);;
+                *);;
+        *);;

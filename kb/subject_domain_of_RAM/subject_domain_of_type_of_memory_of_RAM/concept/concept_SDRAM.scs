@@ -1,0 +1,22 @@
+concept_SDRAM
+	<- sc_node_not_relation;
+	=> nrel_main_idtf:[SDRAM] (* <-lang_en;; *);
+	=> nrel_main_idtf:[SDRAM] (* <-lang_ru;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf: [Опр.(SDRAM)] (* <-lang_ru;; *);;
+		    <= nrel_sc_text_translation:
+                ...
+                (*
+                    -> rrel_example: [SDRAM (Synchronous Dynamic Random Access Memory) - это более старый тип памяти, который работает синхронно со скоростью шины системной платы. SDRAM имеет несколько подтипов: SDR (Single Data Rate) SDRAM, DDR SDRAM, DDR2 SDRAM.] (* <-lang_ru;; *);;
+                *);;
+        *);
+        
+        
+                                <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Pictures//SDRAM.jpg"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

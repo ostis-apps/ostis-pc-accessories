@@ -1,0 +1,12 @@
+subject_domain_interface_videocard
+    =>nrel_main_idtf:[Предметная область интерфейс видеокарты] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of intarface videocard] (* <-lang_en;;*);
+    ->rrel_maximum_studied_object_class:
+	concept_domain_interface_videocard;
+    ->rrel_not_maximum_studied_object_class:
+        concept_PCIE1;
+        concept_PCIE2;
+        concept_PCIE3;
+        concept_PCIE4;
+        concept_PCIE5;
+        concept_PCIE6;;

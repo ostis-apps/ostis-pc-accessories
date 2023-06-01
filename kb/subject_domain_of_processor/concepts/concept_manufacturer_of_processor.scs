@@ -6,7 +6,7 @@ concept_manufacturer_of_processor
 	=> nrel_main_idtf: 
 		[производители процессоров] 
 			(* <-lang_ru;; *);
-	=> nrel_pc_manufacturers;
+
 
 <= nrel_sc_text_translation:
 				"file://html/manuf_proc.html" (*

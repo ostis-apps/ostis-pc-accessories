@@ -4,7 +4,7 @@ subject_domain_of_manufacturers_of_internal_storage
 	<-subject_domain; 
 	<-subject_domain_of_internal_storage;
     ->rrel_maximum_studied_object_class:
-        concept_manufacturer_of_internal_storage;
+        concept_manufacturers_of_internal_storage;
 	->rrel_not_maximum_studied_object_class:
 		concept_Western_Digital;
         concept_Seagate;

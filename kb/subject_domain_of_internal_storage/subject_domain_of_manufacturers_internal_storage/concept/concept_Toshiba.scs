@@ -2,15 +2,15 @@ concept_Toshiba
 	<- sc_node_not_relation;
 	=> nrel_main_idtf:[Toshiba] (* <-lang_en;; *);
 	=> nrel_main_idtf:[Toshiba] (* <-lang_ru;; *);
-
-	<- rrel_key_sc_element:
-		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(Toshiba)] (* <-lang_ru;; *);;
-		    	<= nrel_sc_text_translation:
-				...
-				(* 
-		            		-> rrel_example: [ Toshiba - это японская многопрофильная корпорация, которая производит широкий спектр продукции, включая компьютерные компоненты и электронику, бытовую технику, медицинское оборудование, энергетическое оборудование и многое другое. ] (* <-lang_ru;; *);;
-				*);;
-		*);;
+	
+		<= nrel_sc_text_translation:
+				"file://html/Toshiba.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+		
+		         <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Pictures//Toshiba.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

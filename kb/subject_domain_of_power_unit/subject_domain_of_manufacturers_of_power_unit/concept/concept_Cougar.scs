@@ -1,17 +1,18 @@
 concept_Cougar
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[Cougar] 
-			(* <-lang_en;; *);
+	=> nrel_main_idtf:[Cougar] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Cougar] (* <-lang_ru;; *);
+	
+	
+		<= nrel_sc_text_translation:
+				"file://html/Cougar.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);
 
-	<- rrel_key_sc_element:
-		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(Cougar)] (* <-lang_ru;; *);;
-		    	<= nrel_sc_text_translation:
-				...
-				(* 
-		            		-> rrel_example: [Компания HEC Group, производящая продукцию под маркой Cougar, базируется в Тайване - крупном производителе компьютерной техники и электроники, известном своими высокотехнологичными производствами и инновациями в области компьютерной индустрии.] (* <-lang_ru;; *);;
-				*);;
-		*);;
+		
+		<- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Pictures//Cougar.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

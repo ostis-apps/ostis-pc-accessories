@@ -4,7 +4,7 @@ subject_domain_of_timings
 	<-subject_domain; 
 	<-subject_domain_of_RAM;
     ->rrel_maximum_studied_object_class:
-        concept_timings;
+        concept_timings_RAM;
 	->rrel_not_maximum_studied_object_class:
 		concept_CL;
         concept_tRCD;

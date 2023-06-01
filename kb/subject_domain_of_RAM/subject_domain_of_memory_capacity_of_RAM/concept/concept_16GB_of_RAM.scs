@@ -11,6 +11,13 @@ concept_16GB_of_RAM
 		    <= nrel_sc_text_translation:
                 ...
                 (*
-                    -> rrel_example: [16GB - объём памяти в гигабайтах (единицы измерения памяти), 16GB = 16 000MB] (* <-lang_en;; *);;
+                    -> rrel_example: [16GB - объём памяти в гигабайтах (единицы измерения памяти), 16GB = 16 000MB] (* <-lang_ru;; *);;
                 *);;
-        *);;
+        *);
+        
+        
+                <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Pictures//16GB.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

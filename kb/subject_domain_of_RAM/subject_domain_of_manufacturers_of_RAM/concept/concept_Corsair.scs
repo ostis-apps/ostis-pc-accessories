@@ -1,9 +1,7 @@
 concept_Corsair
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[Corsair] 
-			(* <-lang_en;; *);
-
+	=> nrel_main_idtf:[Corsair] (* <-lang_en;; *);
+	=> nrel_main_idtf:[Corsair] (* <-lang_ru;; *);
 	<- rrel_key_sc_element:
 		...
 		(*

@@ -1,17 +1,16 @@
 concept_3200MHz
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[3200MHz] 
-			(* <-lang_en;; *);
-
-	<- rrel_key_sc_element:
+	=> nrel_main_idtf:[3200MHz] (* <-lang_en;; *);
+	=> nrel_main_idtf:[3200MHz] (* <-lang_ru;; *);
+<= nrel_sc_text_translation:
+				"file://html/3200MHz.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
 		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(3200MHz)] (* <-lang_ru;; *);;
-		    <= nrel_sc_text_translation:
-				...
-				(* 
-		            -> rrel_example: [Максимальная частота памяти материнской платы 3200MHz означает, что данная материнская плата может поддерживать установку модулей оперативной памяти с частотой до 3200 мегагерц.] (* <-lang_ru;; *);;
-				*);;
-		*);;
+ (*
+		             <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//3200MHz.jpeg"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

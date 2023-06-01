@@ -1,17 +1,16 @@
 concept_LPX
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[LPX] 
-			(* <-lang_en;; *);
-
-	<- rrel_key_sc_element:
+	=> nrel_main_idtf:[LPX] (* <-lang_en;; *);
+	=> nrel_main_idtf:[LPX] (* <-lang_ru;; *);
+	<= nrel_sc_text_translation:
+				"file://html/LPX.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
 		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(LPX)] (* <-lang_ru;; *);;
-		    <= nrel_sc_text_translation:
-				...
-				(* 
-		            -> rrel_example: [Форм-фактор LPX (Low Profile eXtension) представляет собой стандарт, разработанный компанией Western Digital в 1990 году для создания компактных настольных компьютеров. LPX отличается от других форм-факторов тем, что плата расширения (PCI, ISA) расположена горизонтально в отношении к главной плате материнской платы, что позволяет уменьшить глубину компьютерного корпуса и улучшить охлаждение компонентов.] (* <-lang_ru;; *);;
-				*);;
-		*);;
+		 (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//LPX.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

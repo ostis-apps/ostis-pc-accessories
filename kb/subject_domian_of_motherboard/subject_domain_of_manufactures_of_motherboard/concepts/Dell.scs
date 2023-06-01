@@ -2,14 +2,15 @@ concept_Dell
 	<- sc_node_not_relation;
 	=> nrel_main_idtf:[Dell] (* <-lang_en;; *);
 	=> nrel_main_idtf:[Dell] (* <-lang_ru;; *);
-	<- rrel_key_sc_element:
+	<= nrel_sc_text_translation:
+				"file://html/Dell.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
 		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(Dell)] (* <-lang_ru;; *);;
-		    <= nrel_sc_text_translation:
-				...
-				(* 
-		            -> rrel_example: [Dell — американская компания, один из крупнейших в мире производителей вычислительной техники. Основана Майклом Деллом в 1984 году, по состоянию на 2020-е годы Делл остаётся основным владельцем и председателем совета директоров и генеральным директором компании.] (* <-lang_ru;; *);;
-				*);;
-		*);;
+ (*
+		             <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//Dell.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

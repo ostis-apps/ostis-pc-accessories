@@ -1,17 +1,16 @@
 concept_SocketAM4
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[SocketAM4] 
-			(* <-lang_en;; *);
-
-	<- rrel_key_sc_element:
+	=> nrel_main_idtf:[SocketAM4] (* <-lang_en;; *);
+	=> nrel_main_idtf:[SocketAM4] (* <-lang_ru;; *);
+	<= nrel_sc_text_translation:
+				"file://html/SocketAM4.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
 		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(SocketAM4)] (* <-lang_ru;; *);;
-		    <= nrel_sc_text_translation:
-				...
-				(* 
-		            -> rrel_example: [Сокет AM4 - это разъем, используемый на материнских платах для установки процессоров AMD семейства Ryzen и Athlon. Он был выпущен в 2016 году и заменил сокеты AM3+ и FM2+.] (* <-lang_ru;; *);;
-				*);;
-		*);;
+ (*
+		             <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//SocketAM4.jpeg"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

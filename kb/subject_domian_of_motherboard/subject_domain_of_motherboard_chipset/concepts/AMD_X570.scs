@@ -2,14 +2,15 @@ concept_AMD_X570
 	<- sc_node_not_relation;
 	=> nrel_main_idtf:[AMD_X570] (* <-lang_en;; *);
 	=> nrel_main_idtf:[AMD_X570] (* <-lang_ru;; *);
-	<- rrel_key_sc_element:
+	<= nrel_sc_text_translation:
+				"file://html/AMD_X570.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
 		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(AMD_X570)] (* <-lang_ru;; *);;
-		    <= nrel_sc_text_translation:
-				...
-				(* 
-		            -> rrel_example: [AMD X570 - это чипсет для настольных компьютеров, выпущенный компанией AMD в 2019 году. Он является преемником чипсета X470 и предназначен для использования с процессорами AMD Ryzen 3000-й серии и AMD Ryzen 5000-й серии для настольных ПК.] (* <-lang_ru;; *);;
-				*);;
-		*);;
+ (*
+		             <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//AMD_X570.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

@@ -2,14 +2,15 @@ concept_Intel_Z590
 	<- sc_node_not_relation;
 	=> nrel_main_idtf:[Intel_Z590] (* <-lang_en;; *);
 	=> nrel_main_idtf:[Intel_Z590] (* <-lang_ru;; *);
-	<- rrel_key_sc_element:
+	<= nrel_sc_text_translation:
+				"file://html/Intel_Z590.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
 		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(Intel_Z590)] (* <-lang_ru;; *);;
-		    <= nrel_sc_text_translation:
-				...
-				(* 
-		            -> rrel_example: [Intel Z590 - это чипсет для настольных компьютеров, выпущенный компанией Intel в начале 2021 года. Он является преемником чипсета Z490 и предназначен для использования с процессорами Intel Core 11-го поколения (Rocket Lake-S).] (* <-lang_ru;; *);;
-				*);;
-		*);;
+ (*
+		             <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//Intel_Z590.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

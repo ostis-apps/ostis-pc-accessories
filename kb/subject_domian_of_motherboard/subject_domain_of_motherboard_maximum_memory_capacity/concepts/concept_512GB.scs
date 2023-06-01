@@ -1,17 +1,16 @@
 concept_512GB
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[512GB] 
-			(* <-lang_en;; *);
-
-	<- rrel_key_sc_element:
+	=> nrel_main_idtf:[512GB] (* <-lang_en;; *);
+	=> nrel_main_idtf:[512GB] (* <-lang_ru;; *);
+	<= nrel_sc_text_translation:
+				"file://html/512GB.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
 		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(512GB)] (* <-lang_ru;; *);;
-		    <= nrel_sc_text_translation:
-				...
-				(* 
-		            -> rrel_example: [Максимальный объем памяти материнской платы 512GB означает, что данная материнская плата может поддерживать установку оперативной памяти общим объемом до 512 гигабайт.] (* <-lang_ru;; *);;
-				*);;
-		*);;
+ (*
+		             <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//512GB.jpeg"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

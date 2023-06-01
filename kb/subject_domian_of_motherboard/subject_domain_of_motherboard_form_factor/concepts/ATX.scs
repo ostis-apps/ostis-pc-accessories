@@ -1,17 +1,16 @@
 concept_ATX
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[ATX] 
-			(* <-lang_en;; *);
-
-	<- rrel_key_sc_element:
+	=> nrel_main_idtf:[ATX] (* <-lang_en;; *);
+	=> nrel_main_idtf:[ATX] (* <-lang_ru;; *);
+	<= nrel_sc_text_translation:
+				"file://html/ATX.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
 		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(ATX)] (* <-lang_ru;; *);;
-		    <= nrel_sc_text_translation:
-				...
-				(* 
-		            -> rrel_example: [Форм-фактор ATX (Advanced Technology Extended) является наиболее распространенным стандартом для настольных компьютеров, который был разработан компанией Intel в 1995 году для замены устаревшего форм-фактора AT.] (* <-lang_ru;; *);;
-				*);;
-		*);;
+ (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//ATX.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

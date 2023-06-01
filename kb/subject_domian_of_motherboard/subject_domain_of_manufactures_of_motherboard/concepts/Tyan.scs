@@ -2,14 +2,15 @@ concept_Tyan
 	<- sc_node_not_relation;
 	=> nrel_main_idtf:[Tyan] (* <-lang_en;; *);
 	=> nrel_main_idtf:[Tyan] (* <-lang_ru;; *);
-	<- rrel_key_sc_element:
+	<= nrel_sc_text_translation:
+				"file://html/Tyan.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
 		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(Tyan)] (* <-lang_ru;; *);;
-		    <= nrel_sc_text_translation:
-				...
-				(* 
-		            -> rrel_example: [Tyan Computer Corporation — тайваньская компания, производящая материнские платы для компьютеров на основе процессоров Intel и AMD, которые используются в высокопроизводительных серверах, SMP системах и в настольных компьютерах. Является подразделением компании MiTAC.] (* <-lang_ru;; *);;
-				*);;
-		*);;
+ (*
+		             <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//Tyan.png"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

@@ -1,17 +1,17 @@
 concept_16GB
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[16GB] 
-			(* <-lang_en;; *);
+	=> nrel_main_idtf:[16GB] (* <-lang_en;; *);
+	=> nrel_main_idtf:[16GB] (* <-lang_ru;; *);
 
-	<- rrel_key_sc_element:
+	<= nrel_sc_text_translation:
+				"file://html/16GB.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                            *);	
+ 	<- rrel_key_sc_element:
 		...
-		(*
-			<- definition;;
-			=> nrel_main_idtf: [Опр.(16GB)] (* <-lang_ru;; *);;
-		    <= nrel_sc_text_translation:
-				...
-				(* 
-		            -> rrel_example: [Поддержка памяти материнской платы 16GB означает, что данная материнская плата может поддерживать установку до 16 гигабайт оперативной памяти.] (* <-lang_ru;; *);;
-				*);;
-		*);;
+ (*
+		             <- illustration;;
+        <= nrel_sc_text_translation: ... (*   -> rrel_example: "file://Picturies//16GB.jpeg"  (*  => nrel_format: format_jpg;;  *);;
+    *);;
+ 		*);; 

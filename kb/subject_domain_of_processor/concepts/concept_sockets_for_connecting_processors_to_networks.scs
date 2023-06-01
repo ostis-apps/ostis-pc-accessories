@@ -7,7 +7,6 @@ concept_sockets_for_connecting_processors_to_networks
 		[разъемы для подключения процессоров к сетям] 
 			(* <-lang_ru;; *);
 	
-	<- nrel_conection_to_net;
 	
 	<- rrel_key_sc_element:
 		...

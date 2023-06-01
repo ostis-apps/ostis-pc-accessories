@@ -4,7 +4,7 @@ concept_processor
 		[processor] 
 			(* <-lang_en;; *);
 	=> nrel_main_idtf: 
-		[процессор] 
+		[Процессор] 
 			(* <-lang_ru;; *);
 	=> nrel_location;
 	

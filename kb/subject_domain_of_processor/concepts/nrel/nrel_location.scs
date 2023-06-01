@@ -1,0 +1,27 @@
+nrel_location
+    <- sc_node_norole_relation;
+    => nrel_system_idtf:[location] (* <- lang_en;; *);
+    => nrel_idtf: [nrel_location](*<- lang_en;;*);
+    => nrel_idtf: [местоположение](*<- lang_ru;;*);
+    => nrel_main_idtf: [местоположение](*<- lang_ru;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: nrel_location;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Неролевое бинарное отношение, связывающее комплектующие ПК по их установочному расположению.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Местоположение)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+		->concept_processor;;
+		->concept_motherboard;;
+		
+        *);;
+*);;
+
+nrel_location => nrel_first_domain: concept_processor;;
+nrel_location => nrel_second_domain: concept_motherboard;;
+

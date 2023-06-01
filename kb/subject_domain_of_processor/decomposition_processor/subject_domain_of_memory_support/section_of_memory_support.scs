@@ -2,8 +2,7 @@
 subject_domain_of_memory_support
     =>nrel_main_idtf:[Предметная область поддержки памяти] (* <-lang_ru;;*);
     =>nrel_main_idtf:[Subject domain memory support] (* <-lang_en;;*);
-	<-subject_domain; 
-	<-subject_domain_of_processor; 
+	
     ->rrel_maximum_studied_object_class:
 	concept_memory_support;
     ->rrel_not_maximum_studied_object_class:

@@ -15,11 +15,18 @@ concept_video_card
 		
 	        
     	->rrel_explored_relation:
-		nrel_example_vidiocart;
-		nrel_manufactures_videocard;
-		nrel_videocard_cooling;
-		nrel_GPU_frequency;
-		nrel_interface_videocard;
-		nrel_videocard_memory_size;
-		nrel_videocard_type_memory;
-		nrel_tire_widht_memory;;
+			nrel_example_vidiocart;
+			nrel_manufactures_videocard;
+			nrel_videocard_cooling;
+			nrel_GPU_frequency;
+			nrel_interface_videocard;
+			nrel_videocard_memory_size;
+			nrel_videocard_type_memory;
+			nrel_tire_widht_memory;
+
+
+	<- rrel_key_sc_element: ... (*
+			<- illustration;;
+			<= nrel_sc_text_translation: ... (*   -> rrel_example: "file://pictures/videocard.png"  (*  => nrel_format: format_jpg;;  *);;    
+		*);;
+			*);; 

@@ -8,7 +8,7 @@ subject_domain_of_manufactures_of_motherboard
     ->rrel_not_maximum_studied_object_class:
         concept_AMD;
         concept_Intel;
-        concept_Asus;
+        concept_ASUS;
         concept_MSI;
         concept_Gigabyte;
         concept_ASRock;
